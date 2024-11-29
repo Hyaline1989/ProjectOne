@@ -20,27 +20,41 @@
     <title>Cheffest Fast food & Grill</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Welcome</a></li>
-          <li><a href="#">Our Menu</a></li>
-          <li><a href="#">Franchise</a></li>
-          <li><a href="#">Contact</a></li>
+    <header class="header">
+      <nav class="header-menu">
+        <ul class="header-menu__list">
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Welcome</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Our Menu</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Franchise</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Contact</a>
+          </li>
         </ul>
       </nav>
-      <div>
-        <img src="./assets/images/icons/cheffest.svg" alt="logo" />
+      <div class="header-brand">
+        <img
+          src="./assets/images/icons/cheffest.svg"
+          alt="logo"
+          class="header-brand__logo"
+        />
       </div>
-      <button type="submit" class="">
-        <img src="./assets/images/icons/basket.svg" alt="basket" />
-      </button>
-      <button type="submit" class="">
-        <img src="./assets/images/icons/search.svg" alt="search" />
-      </button>
-      <button type="submit" class="">
-        <a href="#" class="header_button">Become a Member</a>
-      </button>
+      <div class="header-buttons">
+        <button type="button" class="header__btn">
+          <img src="./assets/images/icons/basket.svg" alt="basket" />
+        </button>
+        <button type="button" class="header__btn">
+          <img src="./assets/images/icons/search.svg" alt="search" />
+        </button>
+      </div>
+      <div>
+        <button type="button" class="member-button">Become a Member</button>
+      </div>
       <div class="burger-menu">
         <img src="assets/images/icons/burger_horizontal_icon.png" alt="menu" />
       </div>
