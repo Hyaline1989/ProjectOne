@@ -60,3 +60,79 @@ body {
   font-size: 18px;
   background-color: #0d0d0d;
 }
+
+
+/* Стили Кати для нижних секций */
+.support {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  max-height: 368px;
+  height: 15rem;
+}
+.support__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support__title{
+  color: black;
+}
+.support__form{
+  display: flex;
+  flex-direction: row;
+
+}
+.support__input {
+}
+.support__button {
+}
+.restaurants {
+}
+.restaurants__container {
+}
+.restaurants__title {
+}
+.restaurants__description {
+}
+.restaurants__button {
+}
+.restaurants__map {
+}
+.restaurants__map-image {
+}
+.footer {
+}
+.footer__container {
+}
+.footer__section {
+}
+.footer__section--products {
+}
+.footer__title {
+}
+.footer__list {
+}
+.footer__item {
+}
+.footer__section--legal {
+}
+.footer__section--contact {
+}
+.footer__section--payments {
+}
+.footer__cards {
+}
+.footer__card {
+}
+.footer__social-icons {
+}
+.footer__social-icon {
+}
+.footer__copyright {
+}
+.footer__text {
+}
