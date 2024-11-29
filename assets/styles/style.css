@@ -66,12 +66,66 @@ a {
   color: #ffffff;
 }
 
+.container {
+  max-width: calc(1170px + 15px * 2);
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+
+
+
+
 
 
 /* Стили Иры для header. */
 .burger-menu {
   display: none;
 }
+
+
+
+
+
+/* Света */
+
+.menu {
+}
+.menu__title {
+}
+.menu__items {
+}
+.menu__filters {
+}
+.menu__filter {
+}
+.menu__filter--active {
+}
+.menu__grid {
+}
+.menu__card {
+}
+.menu__card-image {
+}
+.menu__card-title {
+}
+.menu__card-description {
+}
+.menu__card-price {
+}
+.menu__card-button {
+}
+.menu__button {
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Стили Кати для нижних секций. */
 .support {
