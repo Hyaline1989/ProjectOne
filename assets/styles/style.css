@@ -62,7 +62,7 @@ body {
 }
 
 
-/* Стили Кати для нижних секций */
+/* Стили Кати для нижних секций. */
 .support {
   display: flex;
   flex-direction: column;
@@ -81,7 +81,7 @@ body {
 .support__title{
   color: black;
 }
-.support__form{
+.support__form {
   display: flex;
   flex-direction: row;
 
@@ -91,8 +91,19 @@ body {
 .support__button {
 }
 .restaurants {
+  max-width: 1440px;
+  max-height: 770px;
+  width: 100%;
+  margin: 0 auto;
 }
 .restaurants__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  max-height: 470px;
+  width: 100%;
 }
 .restaurants__title {
 }
@@ -103,6 +114,11 @@ body {
 .restaurants__map {
 }
 .restaurants__map-image {
+  display: block;
+  max-width: 483px;
+  max-height: 470px;
+  width: 100%;
+  height: auto;
 }
 .footer {
 }
