@@ -198,6 +198,13 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.menu__card-button::after:hover {
+  content: '';
+  background-image: url(/assets/images/icons/shopping-cart-black.svg);
+
+}
+
 .menu__button {
   margin-top: 80px;
 }
