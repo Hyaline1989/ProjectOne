@@ -144,9 +144,8 @@ a {
 .menu__card {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   border-radius: 12px;
-  /* padding: 20px; */
+  /* padding-inline: 20px; */
   width: 370px;
   height: 442px;
   box-shadow: 0 0 250px 0 rgba(0, 0, 0, 0.05);
@@ -157,19 +156,60 @@ a {
   align-self: center;
   width: 330px;
   height: 236px;
-  padding-top: 20px;
+  padding: 20px;
   object-fit: cover;
 }
 
 .menu__card-title {
+  padding-inline: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.42;
 }
+
 .menu__card-description {
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
 }
+
+.menu__card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+}
+
 .menu__card-price {
+  display: inline-flex;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.42;
 }
+
 .menu__card-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  aspect-ratio: 1;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.menu__card-button::after {
+  content: '';
+  width: 20px;
+  aspect-ratio: 1;
+  background-image: url(/assets/images/icons/shopping-cart.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .menu__button {
+  margin-top: 80px;
 }
 
 
@@ -205,7 +245,10 @@ a {
   display: flex;
   flex-direction: row;
 }
-
+.support__input {
+}
+.support__button {
+}
 .restaurants {
   max-width: 1440px;
   max-height: 770px;
@@ -216,53 +259,55 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  box-sizing: border-box;
+  align-items: center;
   max-width: 1170px;
   max-height: 470px;
   width: 100%;
-  margin: 5% auto;
 }
-
-.restaurants__content {
-  display: flex;
-  flex-direction: column;
+.restaurants__title {
 }
-
+.restaurants__description {
+}
+.restaurants__button {
+}
+.restaurants__map {
+}
 .restaurants__map-image {
   display: block;
   max-width: 483px;
   max-height: 470px;
   width: 100%;
   height: auto;
-  border-radius: 10px;
 }
 .footer {
-  max-width: 1440px;
-  max-height: 516px;
-  width: 100%;
-  margin: 0 auto;
 }
 .footer__container {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  max-width: 1170px;
-  width: 100%;
-  margin: 0 auto;
 }
-
-.footer__content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 5% 0;
+.footer__section {
 }
-
-.footer__bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-top: 1px solid #fff;
-  margin: 0 0 5% 0;
-  padding-top: 3%;
+.footer__section--products {
+}
+.footer__title {
+}
+.footer__list {
+}
+.footer__item {
+}
+.footer__section--legal {
+}
+.footer__section--contact {
+}
+.footer__section--payments {
+}
+.footer__cards {
+}
+.footer__card {
+}
+.footer__social-icons {
+}
+.footer__social-icon {
+}
+.footer__copyright {
+}
+.footer__text {
 }
