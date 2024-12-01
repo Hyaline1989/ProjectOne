@@ -324,7 +324,7 @@ a {
 .menu__title {
   margin-bottom: 40px;
   font-weight: 600;
-  font-size: 50px;
+  font-size: clamp(28px, 3.47vw, 50px);
   line-height: 1.4;
   text-align: center;
 }
@@ -400,14 +400,14 @@ a {
 .menu__card-title {
   padding-inline: 20px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: clamp(20px, 1.67vw, 24px);
   line-height: 1.42;
 }
 
 .menu__card-description {
   padding: 10px 20px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: clamp(14px, 1.11vw, 16px);
   line-height: 1.62;
 }
 
@@ -421,7 +421,7 @@ a {
 .menu__card-price {
   display: inline-flex;
   font-weight: 700;
-  font-size: 24px;
+  font-size: clamp(20px, 1.67vw, 24px);
   line-height: 1.42;
 }
 
@@ -488,7 +488,7 @@ a {
 
 .achievements__title {
   font-weight: 600;
-  font-size: 44px;
+  font-size: clamp(26px, 3.06vw, 44px);
   line-height: 1.36;
   text-align: center;
   padding-bottom: 60px;
