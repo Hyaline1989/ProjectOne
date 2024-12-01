@@ -78,6 +78,27 @@ a {
   display: none;
 }
 
+.header__col {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 17px;
+}
+
+.header__nav {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 43.63%;
+}
+
 .header__button-icon {
   display: inline-flex;
   align-items: center;
