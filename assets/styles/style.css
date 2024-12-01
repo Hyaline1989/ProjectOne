@@ -195,7 +195,7 @@ a {
   max-width: 652px;
   max-height: 466px;
   left: 135px;
-  top: 72px;
+  top: 66px;
 }
 
 .welcome__heading {
@@ -282,7 +282,7 @@ a {
 
 .video__article-content {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.4px;
   text-align: left;
