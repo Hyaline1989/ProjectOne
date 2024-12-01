@@ -1,4 +1,8 @@
-<svg width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16.125 29.7502C23.5578 29.7502 29.5833 23.7247 29.5833 16.2918C29.5833 8.859 23.5578 2.8335 16.125 2.8335C8.69213 2.8335 2.66663 8.859 2.66663 16.2918C2.66663 23.7247 8.69213 29.7502 16.125 29.7502Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M31 31.1668L28.1666 28.3335" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="32.341553" height="32.341309" viewBox="0 0 32.3416 32.3413" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<path id="Vector" d="M15.45 28.91C8.02 28.91 2 22.89 2 15.45C2 8.02 8.02 2 15.45 2C22.89 2 28.91 8.02 28.91 15.45C28.91 22.89 22.89 28.91 15.45 28.91Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="4.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M30.33 30.33L27.5 27.5" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="4.000000" stroke-linejoin="round" stroke-linecap="round"/>
 </svg>
