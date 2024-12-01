@@ -439,7 +439,7 @@ a {
   content: "";
   width: 20px;
   aspect-ratio: 1;
-  background-image: url(/assets/images/icons/shopping-cart.svg);
+  background-image: url(../images/icons/shopping-cart.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
