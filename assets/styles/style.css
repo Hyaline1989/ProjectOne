@@ -436,10 +436,7 @@ a {
   display: flex;
   flex-direction: row;
 }
-.support__input {
-}
-.support__button {
-}
+
 .restaurants {
   max-width: 1440px;
   max-height: 770px;
@@ -450,55 +447,53 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  box-sizing: border-box;
   max-width: 1170px;
   max-height: 470px;
   width: 100%;
+  margin: 5% auto;
 }
-.restaurants__title {
+
+.restaurants__content {
+  display: flex;
+  flex-direction: column;
 }
-.restaurants__description {
-}
-.restaurants__button {
-}
-.restaurants__map {
-}
+
 .restaurants__map-image {
   display: block;
   max-width: 483px;
   max-height: 470px;
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 .footer {
+  max-width: 1440px;
+  max-height: 516px;
+  width: 100%;
+  margin: 0 auto;
 }
 .footer__container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
 }
-.footer__section {
+
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 0;
 }
-.footer__section--products {
-}
-.footer__title {
-}
-.footer__list {
-}
-.footer__item {
-}
-.footer__section--legal {
-}
-.footer__section--contact {
-}
-.footer__section--payments {
-}
-.footer__cards {
-}
-.footer__card {
-}
-.footer__social-icons {
-}
-.footer__social-icon {
-}
-.footer__copyright {
-}
-.footer__text {
+
+.footer__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  margin: 0 0 5% 0;
+  padding-top: 3%;
 }
