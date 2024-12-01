@@ -191,12 +191,12 @@ a {
 }
 
 .welcome__title {
-  box-sizing: border-box;
   position: absolute;
+  max-width: ;
   width: 652px;
-  height: 466px;
+  max-height: 466px;
   left: 135px;
-  top: 100px;
+  top: 72px;
 }
 
 .welcome__heading {
@@ -227,13 +227,14 @@ a {
   gap: 10;
   padding: 0px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 30px;
   letter-spacing: 0%;
   text-align: left;
 }
 
 .welcome__button {
+  margin: 40px 0px;
 }
 
 /* Света */
