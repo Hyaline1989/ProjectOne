@@ -87,12 +87,31 @@ a {
 .header__nav {
   display: inline-flex;
   gap: 57px;
+  margin-left: 135px;
 }
 
 .header__menu {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+}
+
+.header__logo {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  display: block;
+  width: 100px;
+  max-width: initial;
+  height: 94px;
+}
+
+.header__actions {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .header__button-icon {
@@ -103,6 +122,10 @@ a {
   fill: #0d0d0d;
   border: none;
   cursor: pointer;
+}
+
+.button_member {
+  margin-right: 135px;
 }
 
 .header__button-icon:active {
@@ -129,6 +152,31 @@ a {
 
 .button:active {
   transform: scale(0.95);
+}
+
+.menu__button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu__button {
+  width: 168px;
+}
+
+.franchise__button {
+  width: 294px;
+}
+
+.restaurants__button {
+  width: 337px;
+  margin-left: 0;
+}
+
+.support__button {
+  width: 198px;
+  background: #000;
+  color: #fff;
 }
 
 /* Света */
