@@ -233,7 +233,6 @@ a {
 }
 
 .video__article-content {
-  flex: 1;
   font: 400 18px/30px Inter, sans-serif;
   color: #eeeeee;
 }
@@ -241,12 +240,16 @@ a {
 .video__box {
   background: url(../images/video.jpg);
   width: 100%;
+  max-width: 997px;
+  min-height: 600px;
   height: auto;
   display: flex;
-  flex: 1;
   justify-content: center;
   background-repeat: no-repeat;
+  background-position: center center;
+  align-items: center;
   border-radius: 12px;
+  margin-left: auto;
 }
 
 .video__button {
