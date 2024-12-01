@@ -79,24 +79,20 @@ a {
 }
 
 .header__col {
-  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  padding-left: 17px;
+  justify-content: space-between;
 }
 
 .header__nav {
-  box-sizing: border-box;
+  display: inline-flex;
+  gap: 57px;
+}
+
+.header__menu {
   display: flex;
-  flex: 0 0 auto;
-  flex-direction: row;
-  gap: 40px;
-  align-items: center;
-  justify-content: flex-start;
-  width: 43.63%;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .header__button-icon {
@@ -466,7 +462,7 @@ a {
 
 .support__input {
   font-weight: 600;
-  font-size: 1,125rem;
+  font-size: 1, 125rem;
   line-height: 156%;
   color: #000;
 }
@@ -506,7 +502,7 @@ a {
 .restaurants__description {
   font-weight: 400;
   font-size: 1.25rem;
-  line-height: 150%; 
+  line-height: 150%;
   margin: 5% 0 17% 0;
 }
 
@@ -544,7 +540,7 @@ a {
 .footer__title {
   font-weight: 600;
   font-size: 1.5rem;
-  line-height: 100%; 
+  line-height: 100%;
 }
 
 .footer__item {
@@ -578,5 +574,5 @@ a {
 .footer__text {
   font-weight: 400;
   font-size: 1.125rem;
-  line-height: 167%;  
+  line-height: 167%;
 }
