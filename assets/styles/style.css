@@ -72,6 +72,53 @@ a {
   padding-inline: 15px;
 }
 
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  gap: 10px;
+  padding: 20px 34px 20px 34px;
+  margin: 0px 30px;
+  border: none;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0%;
+  cursor: pointer;
+  background: #fff;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.menu__button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu__button {
+  width: 168px;
+}
+
+.franchise__button {
+  width: 294px;
+}
+
+.restaurants__button {
+  width: 337px;
+  margin-left: 0;
+}
+
+.support__button {
+  width: 198px;
+  background: #000;
+  color: #fff;
+}
+
 /* Ира */
 
 .header__burger {
@@ -212,10 +259,11 @@ a {
 }
 
 .video__title-main {
+  padding-bottom: 20px;
+  font-weight: 600;
   font-size: 50px;
-  font-weight: 700;
-  line-height: 70px;
-  letter-spacing: 0%;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .video__title-descripton {
@@ -233,8 +281,12 @@ a {
 }
 
 .video__article-content {
-  font: 400 18px/30px Inter, sans-serif;
-  color: #eeeeee;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding-bottom: 60px;
 }
 
 .video__box {
@@ -263,53 +315,6 @@ a {
 
 .video__button:active {
   transform: scale(0.95);
-}
-
-.button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 60px;
-  gap: 10px;
-  padding: 20px 34px 20px 34px;
-  margin: 0px 30px;
-  border: none;
-  border-radius: 40px;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 0%;
-  cursor: pointer;
-  background: #fff;
-}
-
-.button:active {
-  transform: scale(0.95);
-}
-
-.menu__button-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.menu__button {
-  width: 168px;
-}
-
-.franchise__button {
-  width: 294px;
-}
-
-.restaurants__button {
-  width: 337px;
-  margin-left: 0;
-}
-
-.support__button {
-  width: 198px;
-  background: #000;
-  color: #fff;
 }
 
 /* Света */
