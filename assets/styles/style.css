@@ -180,13 +180,13 @@ a {
 }
 
 .welcome {
-  box-sizing: border-box;
   background-image: url(../images/main-image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
-  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
   height: 700px;
   position: relative;
 }
@@ -302,7 +302,7 @@ a {
   object-fit: cover;
   background-position: center center;
   align-items: center;
-  border-radius: 12px;
+  border-radius: 15px;
   margin-left: auto;
 }
 
