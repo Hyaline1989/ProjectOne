@@ -73,7 +73,7 @@ a {
 }
 
 /* Стили Иры для header */
-.burger-menu {
+.header__burger {
   display: none;
 }
 
@@ -190,7 +190,7 @@ a {
 }
 
 .menu__card-button::after {
-  content: '';
+  content: "";
   width: 20px;
   aspect-ratio: 1;
   background-image: url(/assets/images/icons/shopping-cart.svg);
@@ -200,9 +200,8 @@ a {
 }
 
 .menu__card-button::after:hover {
-  content: '';
+  content: "";
   background-image: url(/assets/images/icons/shopping-cart-black.svg);
-
 }
 
 .menu__button {
