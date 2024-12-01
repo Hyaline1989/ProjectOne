@@ -421,7 +421,7 @@ a {
   align-items: center;
   background-color: #ffffff;
   max-height: 368px;
-  height: 15rem;
+  height: 20rem;
 }
 .support__container {
   display: flex;
@@ -429,12 +429,25 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 .support__title {
+  font-weight: 700;
+  font-size: 4.375rem;
+  line-height: 129%;
+  text-align: center;
   color: black;
+  padding: 0 0 10% 0;
 }
 .support__form {
   display: flex;
   flex-direction: row;
+}
+
+.support__input {
+  font-weight: 600;
+  font-size: 1,125rem;
+  line-height: 156%;
+  color: #000;
 }
 
 .restaurants {
@@ -457,6 +470,23 @@ a {
 .restaurants__content {
   display: flex;
   flex-direction: column;
+  max-width: 542px;
+  max-height: 384px;
+  width: 100%;
+  height: 100%;
+}
+
+.restaurants__title {
+  font-weight: 700;
+  font-size: 3.125rem;
+  line-height: 140%;
+}
+
+.restaurants__description {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 150%; 
+  margin: 5% 0 17% 0;
 }
 
 .restaurants__map-image {
@@ -473,13 +503,14 @@ a {
   width: 100%;
   margin: 0 auto;
 }
+
 .footer__container {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   max-width: 1170px;
   width: 100%;
-  margin: 0 auto;
+  margin: 5% auto;
 }
 
 .footer__content {
@@ -489,6 +520,24 @@ a {
   margin: 5% 0;
 }
 
+.footer__title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 100%; 
+}
+
+.footer__item {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 100%;
+  margin: 10% 10% 10% 0;
+  text-wrap: nowrap;
+}
+
+.footer__card {
+  padding: 5% 10% 5% 0;
+}
+
 .footer__bottom {
   display: flex;
   flex-direction: row;
@@ -496,4 +545,17 @@ a {
   border-top: 1px solid #fff;
   margin: 0 0 5% 0;
   padding-top: 3%;
+  text-wrap: nowrap;
+  max-width: 1440px;
+  max-height: 516px;
+}
+
+.footer__social-icon {
+  padding-right: 10%;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 167%;  
 }
