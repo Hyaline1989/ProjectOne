@@ -79,8 +79,7 @@ a {
 
 /* Света */
 
-.menu {
-}
+
 .menu__title {
   margin-bottom: 40px;
   font-weight: 600;
@@ -131,11 +130,11 @@ a {
   column-gap: 30px;
   row-gap: 40px;
 }
+
 .menu__card {
   display: flex;
   flex-direction: column;
   border-radius: 12px;
-  /* padding-inline: 20px; */
   width: 370px;
   height: 442px;
   box-shadow: 0 0 250px 0 rgba(0, 0, 0, 0.05);
@@ -199,15 +198,200 @@ a {
   background-size: contain;
 }
 
-.menu__card-button::after:hover {
-  content: '';
-  background-image: url(/assets/images/icons/shopping-cart-black.svg);
+.menu__card-button:hover::after {
+  z-index: -1;
+}
 
+.menu__button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu__button {
   margin-top: 80px;
+  /* margin-bottom: 150px; */
 }
+
+
+  /* .button {
+  display: inline-flex;
+  align-items: center;
+  height: 48px;
+  padding-inline: 26px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 30px;;
+}  */
+
+
+.achievements {
+  margin-top: 150px;
+}
+
+.achievements__content {
+margin-bottom: 180px;
+}
+
+.achievements__title {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.achievements__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.achievements__item {
+  text-align: center;
+}
+
+.achievements__number {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.18;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.achievements__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+}
+
+.franchise__title {
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.40;
+  text-align: center;
+}
+
+.franchise__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.50;
+  letter-spacing: 0.4px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.franchise__button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.franchise__button {
+  margin-bottom: 150px;
+}
+
+.reviews {
+  margin-bottom: 150px;
+}
+
+.reviews__title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.40;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.reviews__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  justify-items: center;
+  column-gap: 30px;
+  row-gap: 40px;
+}
+
+.reviews__list {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  width: 370px;
+  height: 371px;
+  box-shadow: 0 0 250px 0 rgba(0, 0, 0, 0.05);
+  background: #191919;
+}
+
+.reviews__item {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 12px;
+  padding: 20px;
+  width: 232px;
+  height: 113px;
+}
+
+.reviews__photo {
+  grid-column: 1/2;
+  grid-row: 1/5;
+  /* border: 2px solid #191919;
+  border-radius: 50px; */
+}
+
+.reviews__name {
+  grid-column: 2/3;
+  grid-row: 1/5;
+  font-weight: 700;
+  line-height: 1.56;
+  letter-spacing: 0.4px;
+}
+
+.reviews__position {
+  grid-column: 2/3;
+  grid-row: 2/5;
+  /* align-content: end; */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  opacity: 0.7;
+}
+
+.reviews__rating {
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+
+.reviews__quote {
+  align-content: end;
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+.reviews__text {
+  padding-inline: 20px;
+  font-weight: 500; 
+  line-height: 1.56;
+  letter-spacing: 0.4px;
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
 
 /* Стили Кати для нижних секций. */
 .support {
