@@ -369,7 +369,7 @@ a {
   border-bottom-right-radius: 10px;
 }
 
-.menu__grid {
+.menu__grid { 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   justify-items: center;
