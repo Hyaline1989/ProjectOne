@@ -159,6 +159,16 @@ a {
   width: 43.63%;
 }
 
+.header__menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .header__menu-item {
   flex: 0 0 auto;
   padding: 0;
@@ -603,9 +613,9 @@ a {
 .menu__card-button.active {
   background-color: #ffffff;
 }
-  
-  /* background-size: contain; */
-  /* z-index: 2; */
+
+/* background-size: contain; */
+/* z-index: 2; */
 /* }
 
 .menu__card-button.active::after {
@@ -637,11 +647,7 @@ a {
   border-radius: 30px;;
 }  */
 
-
-
-
 /* Стили для карточек */
-
 
 .menu__card {
   overflow: hidden;
@@ -652,13 +658,8 @@ a {
 }
 
 .menu__card:hover img {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
-
-
-
-
-
 
 .achievements {
   margin-top: 150px;
@@ -816,7 +817,6 @@ a {
   opacity: 0.7;
 }
 
-
 /* стили для карточек */
 
 .reviews__list {
@@ -827,7 +827,6 @@ a {
   transform: scale(1.05); /* Лёгкое увеличение */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Тень при наведении */
 }
-
 
 /* Стили Кати для нижних секций. */
 .support {
