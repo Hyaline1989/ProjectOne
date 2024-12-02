@@ -121,37 +121,65 @@ a {
 
 /* Ира */
 
-.header__burger {
-  display: none;
-}
-
 .header {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  width: 1440px;
   background-color: #000;
 }
 
 .header__col {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 17px;
+  background: black;
 }
 
 .header__nav {
-  display: inline-flex;
-  gap: 57px;
-  margin-left: 135px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 1153px;
+  height: 128px;
 }
 
 .header__menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 43.63%;
+}
+
+.header__menu-item {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 600 18px/20px Inter, sans-serif;
+  color: white;
 }
 
 .header__logo {
-  display: inline-flex;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 8px;
   align-items: center;
-  box-sizing: border-box;
-  display: block;
+  justify-content: space-between;
+  width: 56.37%;
+  padding-left: 15px;
+}
+
+.header__logo-img {
+  display: flex;
   width: 100px;
   max-width: initial;
   height: 94px;
@@ -165,18 +193,41 @@ a {
   justify-content: flex-start;
 }
 
+.header__actions-btn {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
 .header__button-icon {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0d0d0d;
-  fill: #0d0d0d;
+  background-color: #000000;
+  fill: #000000;
   border: none;
   cursor: pointer;
 }
 
+.header__button-img {
+  display: flex;
+  width: 34px;
+  max-width: initial;
+  height: 34px;
+}
+
+.header__actions-btn_white {
+  margin-right: 50px;
+}
+
 .button_member {
-  margin-right: 135px;
+  width: 232px;
+  height: 70px;
+  font-size: 18px;
+  white-space: nowrap;
 }
 
 .header__button-icon:active {
