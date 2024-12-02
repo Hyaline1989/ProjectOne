@@ -536,7 +536,7 @@ a {
 
 .achievements__title {
   font-weight: 600;
-  font-size: clamp(26px, 3.06vw, 44px);
+  font-size: clamp(28px, 3.47vw, 50px);
   line-height: 1.36;
   text-align: center;
   padding-bottom: 60px;
@@ -554,7 +554,7 @@ a {
 
 .achievements__number {
   font-weight: 700;
-  font-size: 56px;
+  font-size: clamp(46px, 3.89vw, 56px);
   line-height: 1.18;
   text-align: center;
   padding-bottom: 12px;
@@ -562,7 +562,6 @@ a {
 
 .achievements__text {
   font-weight: 400;
-  font-size: 18px;
   line-height: 167%;
   text-align: center;
 }
@@ -570,14 +569,14 @@ a {
 .franchise__title {
   padding-bottom: 20px;
   font-weight: 600;
-  font-size: 50px;
+  font-size: clamp(28px, 3.47vw, 50px);
   line-height: 1.4;
   text-align: center;
 }
 
 .franchise__text {
   font-weight: 400;
-  font-size: 20px;
+  font-size: clamp(14px, 1.39vw, 20px);
   line-height: 1.5;
   letter-spacing: 0.4px;
   text-align: center;
@@ -600,7 +599,7 @@ a {
 
 .reviews__title {
   font-weight: 600;
-  font-size: 50px;
+  font-size: clamp(28px, 3.47vw, 50px);
   line-height: 1.4;
   text-align: center;
   padding-bottom: 70px;
