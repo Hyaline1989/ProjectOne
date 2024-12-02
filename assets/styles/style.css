@@ -685,7 +685,7 @@ a {
 
 .achievements__item {
   text-align: center;
-  max-width: 270px;
+  width: 270px;
 }
 
 .achievements__number {
