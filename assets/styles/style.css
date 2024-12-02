@@ -470,16 +470,16 @@ a {
   display: flex;
   flex-direction: column;
   border-radius: 12px;
-  width: 370px;
-  height: 442px;
+  width: clamp(280px, 25.69vw, 370px);
+  height: clamp(388px, 30.69vw, 442px);
   box-shadow: 0 0 250px 0 rgba(0, 0, 0, 0.05);
   background: #191919;
 }
 
 .menu__card-image {
   align-self: center;
-  width: 330px;
-  height: 236px;
+  width: clamp(240px, 22.92vw, 330px);
+  height: clamp(170px, 16.39vw, 236px);
   padding: 20px;
   object-fit: cover;
 }
@@ -544,6 +544,27 @@ a {
   transition-duration: 0.2s;
 }
 
+.menu__card-button:active {
+  transform: scale(0.95);
+  background-color: #ffffff;
+}
+
+.menu__card-button.active {
+  background-color: #ffffff;
+}
+  
+  /* background-size: contain; */
+  /* z-index: 2; */
+/* }
+
+.menu__card-button.active::after {
+  background-image: url(../images/icons/shopping-cart-black.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+} */
+
 .menu__button {
   margin-top: 80px;
   /* margin-bottom: 150px; */
@@ -565,6 +586,29 @@ a {
   border-radius: 30px;;
 }  */
 
+
+
+
+/* Стили для карточек */
+
+
+.menu__card {
+  overflow: hidden;
+}
+
+.menu__card img {
+  transition: transform 0.3s ease;
+}
+
+.menu__card:hover img {
+  transform: scale(1.1); 
+}
+
+
+
+
+
+
 .achievements {
   margin-top: 150px;
 }
@@ -583,6 +627,7 @@ a {
 
 .achievements__items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -656,8 +701,8 @@ a {
   display: flex;
   flex-direction: column;
   border-radius: 12px;
-  width: 370px;
-  height: 371px;
+  width: clamp(280px, 25.69vw, 370px);
+  height: clamp(337px, 25.76vw, 371px);
   box-shadow: 0 0 250px 0 rgba(0, 0, 0, 0.05);
   background: #191919;
 }
@@ -668,9 +713,9 @@ a {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(4, 1fr);
   column-gap: 12px;
-  padding: 20px;
-  width: 232px;
+  width: clamp(227px, 16.11vw, 232px);
   height: 113px;
+  padding: 20px;
 }
 
 .reviews__photo {
@@ -696,6 +741,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.57;
+  white-space: nowrap;
   opacity: 0.7;
 }
 
@@ -717,6 +763,19 @@ a {
   letter-spacing: 0.4px;
   opacity: 0.7;
 }
+
+
+/* стили для карточек */
+
+.reviews__list {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reviews__list:hover {
+  transform: scale(1.05); /* Лёгкое увеличение */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+}
+
 
 /* Стили Кати для нижних секций. */
 .support {
