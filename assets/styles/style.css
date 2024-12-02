@@ -382,6 +382,13 @@ a {
   text-align: left;
 }
 
+.video__article-content_bold {
+  font: 700 18px/30px Inter, sans-serif;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+
 .video__box {
   flex: 0 0 auto;
   min-width: 570px;
