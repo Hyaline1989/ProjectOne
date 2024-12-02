@@ -57,7 +57,7 @@
 body {
   font-family: "Inter", sans-serif;
   color: #ffffff;
-  font-size: 18px;
+  font-size: clamp(14px, 1.25vw, 18px);
   background-color: #0d0d0d;
 }
 
