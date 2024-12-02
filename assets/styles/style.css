@@ -689,12 +689,7 @@ a {
   background-color: #ffffff;
   max-height: 368px;
   height: 20rem;
-}
-.support__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 .support__title {
@@ -707,7 +702,6 @@ a {
 }
 .support__form {
   display: flex;
-  flex-direction: row;
 }
 
 .support__input {
@@ -715,6 +709,11 @@ a {
   font-size: 1, 125rem;
   line-height: 156%;
   color: #000;
+  border: 1px solid #000;
+  border-radius: 40px;
+  width: 530px;
+  height: 57px;
+  padding-left: 5%;
 }
 
 .restaurants {
@@ -723,9 +722,9 @@ a {
   width: 100%;
   margin: 0 auto;
 }
+
 .restaurants__container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   box-sizing: border-box;
   max-width: 1170px;
@@ -747,12 +746,14 @@ a {
   font-weight: 700;
   font-size: 3.125rem;
   line-height: 140%;
+  letter-spacing: 0.4px;
 }
 
 .restaurants__description {
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 150%;
+  letter-spacing: 0.4px;
   margin: 5% 0 17% 0;
 }
 
@@ -769,6 +770,7 @@ a {
   max-height: 516px;
   width: 100%;
   margin: 0 auto;
+  background-color: #191919;
 }
 
 .footer__container {
@@ -782,7 +784,6 @@ a {
 
 .footer__content {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin: 5% 0;
 }
@@ -791,6 +792,7 @@ a {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 100%;
+  letter-spacing: 0.4px;
 }
 
 .footer__item {
@@ -798,7 +800,8 @@ a {
   font-size: 1.125rem;
   line-height: 100%;
   margin: 10% 10% 10% 0;
-  text-wrap: nowrap;
+  white-space: nowrap;
+  letter-spacing: 0.4px;
 }
 
 .footer__card {
@@ -807,12 +810,11 @@ a {
 
 .footer__bottom {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #4f4f4f;
   margin: 0 0 5% 0;
   padding-top: 3%;
-  text-wrap: nowrap;
+  white-space: nowrap;
   max-width: 1440px;
   max-height: 516px;
 }
@@ -825,4 +827,5 @@ a {
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 167%;
+  letter-spacing: 0.4px;
 }
