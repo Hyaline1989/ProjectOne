@@ -556,7 +556,6 @@ a {
   padding-inline: 20px;
 }
 
-
 .menu__card-price {
   display: inline-flex;
   font-weight: 700;
@@ -679,13 +678,14 @@ a {
 
 .achievements__items {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
 }
 
 .achievements__item {
   text-align: center;
+  max-width: 270px;
 }
 
 .achievements__number {
