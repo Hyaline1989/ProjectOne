@@ -177,6 +177,13 @@ a {
   color: white;
 }
 
+.header__menu-link {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font: 500 18px/20px Inter, sans-serif;
+  text-align: left;
+}
+
 .header__logo {
   display: flex;
   flex: 0 0 auto;
