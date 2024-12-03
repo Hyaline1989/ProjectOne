@@ -139,7 +139,6 @@ a {
 
 .header__nav {
   display: flex;
-  flex-direction: row;
   align-items: center;
   min-width: 1153px;
   height: 128px;
@@ -156,8 +155,8 @@ a {
   align-items: center;
   gap: 30px;
   list-style: none;
-  padding: 0;
   margin-left: 80px;
+  padding: 0;
 }
 
 .header__menu-link {
@@ -167,8 +166,8 @@ a {
 }
 
 .header__menu-link:hover {
-  border-top: 4px solid #ffffff;
-  border-bottom: 4px solid #ffffff;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
   padding: 6px 0;
 }
 
@@ -216,6 +215,16 @@ a {
   margin-right: 80px;
 }
 
+.button_member {
+  width: 232px;
+  height: 70px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.header__button-icon:active {
+  transform: scale(0.95);
+}
 .button_member {
   width: 232px;
   height: 70px;
