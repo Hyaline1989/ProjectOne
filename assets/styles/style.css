@@ -856,15 +856,18 @@ a {
   max-height: 368px;
   height: 20rem;
   width: 100%;
+  margin: 80px 0;
 }
 
 .support__title {
   font-weight: 700;
-  font-size: 4.375rem;
+  font-size: clamp(30px, 4.86vw, 70px);
   line-height: 129%;
   text-align: center;
   color: black;
-  padding: 0 0 10% 0;
+  margin: 0 0 50px 0;
+  width: 680px;
+  height: 90px;
 }
 .support__form {
   display: flex;
@@ -872,7 +875,7 @@ a {
 
 .support__input {
   font-weight: 600;
-  font-size: 1, 125rem;
+  font-size: clamp(14px, 1.25vw, 18px);
   line-height: 156%;
   color: #000;
   border: 1px solid #000;
@@ -896,7 +899,7 @@ a {
   max-width: 1170px;
   max-height: 470px;
   width: 100%;
-  margin: 5% auto;
+  margin: 150px auto;
 }
 
 .restaurants__content {
@@ -910,14 +913,14 @@ a {
 
 .restaurants__title {
   font-weight: 700;
-  font-size: 3.125rem;
+  font-size: clamp(28px, 3.47vw, 50px);
   line-height: 140%;
   letter-spacing: 0.4px;
 }
 
 .restaurants__description {
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: clamp(14px, 1.25vw, 18px);
   line-height: 150%;
   letter-spacing: 0.4px;
   margin: 5% 0 17% 0;
@@ -945,41 +948,41 @@ a {
   box-sizing: border-box;
   max-width: 1170px;
   width: 100%;
-  margin: 5% auto;
+  margin: 80px auto 100px auto;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
-  margin: 5% 0;
+  margin: 0 0 100px 0;
 }
 
 .footer__title {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 100%;
   letter-spacing: 0.4px;
+  margin: 80px 0 30px 0;
 }
 
 .footer__item {
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 18px;
   line-height: 100%;
-  margin: 10% 10% 10% 0;
+  margin: 0 0 30px 0;
   white-space: nowrap;
   letter-spacing: 0.4px;
 }
 
 .footer__card {
-  padding: 5% 10% 5% 0;
+  white-space: wrap;
+  margin: 0 30px 30px 0;
 }
 
 .footer__bottom {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #4f4f4f;
-  margin: 0 0 5% 0;
-  padding-top: 3%;
   white-space: nowrap;
   max-width: 1440px;
   max-height: 516px;
@@ -988,6 +991,7 @@ a {
 .footer__social-icon {
   padding-right: 10%;
   transition: transform 0.3s ease;
+  margin: 29px 0 80px 0;
 }
 
 .footer__social-icon:hover {
@@ -996,7 +1000,8 @@ a {
 
 .footer__text {
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: clamp(14px, 1.25vw, 18px);
   line-height: 167%;
   letter-spacing: 0.4px;
+  margin: 29px 0 80px 0;
 }
