@@ -221,7 +221,7 @@ a {
   height: 70px;
   font-size: 18px;
   white-space: nowrap;
-  margin: 1;
+  margin: 0;
 }
 
 .header__button-icon:active {
