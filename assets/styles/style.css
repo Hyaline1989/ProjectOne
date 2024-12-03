@@ -162,8 +162,7 @@ a {
 .header__menu-link {
   color: #ffffff;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 20px;
+  line-height: 1.11;
   font-family: Inter, sans-serif;
   letter-spacing: 0.4px;
   white-space: nowrap;
@@ -222,19 +221,8 @@ a {
 .button_member {
   width: 232px;
   height: 70px;
-  font-size: 18px;
+  font-size: 18px; /* Надо ли менять? */
   white-space: nowrap;
-}
-
-.header__button-icon:active {
-  transform: scale(0.95);
-}
-.button_member {
-  width: 232px;
-  height: 70px;
-  font-size: 18px;
-  white-space: nowrap;
-  margin: 0;
 }
 
 .header__button-icon:active {
@@ -276,9 +264,11 @@ a {
   height: 288px;
   gap: 10;
   padding: 0px;
-  font-size: 55px;
-  font-weight: 800;
-  line-height: 90px;
+  font-size: clamp(28px, 3.82vw, 55px);
+  /*font-size: clamp(28px, 4.58vw, 66px);  Размер из макета */
+  font-weight: 900;
+  line-height: 1.75;
+  /*line-height: 1.45;  Высота из макета */
   letter-spacing: 0.4px;
   text-align: left;
 }
@@ -293,9 +283,10 @@ a {
   height: 60px;
   gap: 10;
   padding: 0px;
-  font-size: 20px;
+  font-size: clamp(14px, 1.39vw, 20px);
   font-weight: 200;
-  line-height: 30px;
+  /*font-weight: 400;  Толщина из макета */
+  line-height: 1.5;
   letter-spacing: 0.4px;
   text-align: left;
 }
@@ -345,20 +336,23 @@ a {
 .video__title-main {
   padding: 0;
   font-weight: 700;
-  font-size: 50px;
+  font-size: clamp(28px, 3.82vw, 50px);
+  line-height: 1.4;
   font-family: Inter, sans-serif;
   color: #ffffff;
   text-align: center;
+  letter-spacing: 0.4px;
 }
 
 .video__title-descripton {
   margin-top: 20px;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: clamp(14px, 1.39vw, 20px);
+  line-height: 1.67;
   font-family: Inter, sans-serif;
   color: #ffffff;
   text-align: center;
+  letter-spacing: 0.4px;
 }
 
 .video__article {
@@ -373,21 +367,21 @@ a {
 .video__article-content {
   max-width: 515px;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  line-height: 1.67;
   font-family: Inter, sans-serif;
   color: #eeeeee;
   text-align: left;
+  letter-spacing: 0.4px;
 }
 
 .video__article-content_bold {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 30px;
+  line-height: 1.67;
   font-family: Inter, sans-serif;
   color: #ffffff;
   text-align: left;
   cursor: pointer;
+  letter-spacing: 0.4px;
 }
 
 .video__article-content_bold:hover {
