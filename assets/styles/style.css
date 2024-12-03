@@ -233,16 +233,25 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
-  background: url(../images/main-image.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: cover;
+  /*background-size: cover;*/
   margin: 0 auto;
   height: 700px;
   position: relative;
   overflow: hidden;
+}
+
+.welcome__container-background {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  background-position: center; /* Позиционирование изображения по центру */
+  background-size: cover; /* Масштабирование изображения, чтобы оно заполнило контейнер */
+  background-repeat: no-repeat;
+  z-index: -1; /* Чтобы фон был под остальным содержимым */
 }
 
 .welcome__title {
