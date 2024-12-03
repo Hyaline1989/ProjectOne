@@ -506,7 +506,7 @@ a {
 
 .menu__filter:hover {
   padding: 8px 20px;
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 4px solid #f0a967;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 10px;
@@ -516,7 +516,7 @@ a {
 
 .menu__filter--active {
   padding: 8px 20px;
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 4px solid #f0a967;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 10px;
@@ -605,6 +605,7 @@ a {
   aspect-ratio: 1;
   border-radius: 50px;
   background-image: none;
+  /* border: 1px solid #ffffff; */
   background-color: #ffffff;
   transition-duration: 0.2s;
 }
@@ -612,10 +613,12 @@ a {
 .menu__card-button:active {
   transform: scale(0.95);
   background-color: #ffffff;
+  /* border: 1px solid #ffffff; */
 }
 
 .menu__card-button.active {
-  background-color: #ffffff;
+  background-color: #f0a967;
+  border: 1px solid #f0a967;
 }
 
 /* background-size: contain; */
