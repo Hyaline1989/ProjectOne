@@ -254,6 +254,12 @@ a {
   z-index: -1; /* Чтобы фон был под остальным содержимым */
 }
 
+.welcome__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .welcome__title {
   position: absolute;
   max-width: 652px;
