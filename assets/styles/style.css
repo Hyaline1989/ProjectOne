@@ -937,7 +937,7 @@ a {
 
 .support__input {
   font-weight: 600;
-  font-size: clamp(14px, 1.25vw, 18px);
+  /* font-size: clamp(14px, 1.25vw, 18px); */
   line-height: 156%;
   color: #000;
   border: 1px solid #000;
@@ -948,19 +948,19 @@ a {
 }
 
 .restaurants {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   max-height: 770px;
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
 }
 
 .restaurants__container {
   display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
-  max-width: 1170px;
+  /* box-sizing: border-box; */
+  /* max-width: 1170px; */
   max-height: 470px;
-  width: 100%;
+  /* width: 100%; */
   margin: 150px auto;
 }
 
@@ -982,7 +982,7 @@ a {
 
 .restaurants__description {
   font-weight: 400;
-  font-size: clamp(14px, 1.25vw, 18px);
+  /* font-size: clamp(14px, 1.25vw, 18px); */
   line-height: 150%;
   letter-spacing: 0.4px;
   margin: 5% 0 17% 0;
@@ -993,17 +993,18 @@ a {
   width: clamp(280px, 33.54vw, 483px);
   height: 470px;
   border-radius: 10px;
+  object-fit: cover;
 }
-
+/* 
 .restaurants__map-image:hover {
   transform: scale(1.1);
   cursor: pointer;
-}
+} */
 
 .footer {
   max-width: 1440px;
   max-height: 516px;
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
   background-color: #191919;
 }
@@ -1011,10 +1012,10 @@ a {
 .footer__container {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  max-width: 1170px;
-  width: 100%;
-  margin: 80px auto 100px auto;
+  /* box-sizing: border-box; */
+  /* max-width: 1170px;
+  width: 100%; */
+  /* margin: 80px auto 100px auto; */
 }
 
 .footer__content {
@@ -1056,14 +1057,15 @@ a {
   justify-content: space-between;
   border-top: 1px solid #4f4f4f;
   white-space: nowrap;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   max-height: 516px;
 }
 
 .footer__social-icon {
-  padding-right: 10%;
+  /* padding-right: 10%; */
   transition: transform 0.3s ease;
-  margin: 29px 0 80px 0;
+  /* margin: 29px 0 80px 0; */
+  padding: 20px 20px 20px 0;
 }
 
 .footer__social-icon:hover {
@@ -1073,8 +1075,9 @@ a {
 
 .footer__text {
   font-weight: 400;
-  font-size: clamp(14px, 1.25vw, 18px);
+  /* font-size: clamp(14px, 1.25vw, 18px); */
   line-height: 167%;
   letter-spacing: 0.4px;
-  margin: 29px 0 80px 0;
+  /* margin: 29px 0 80px 0; */
+  padding: 20px 0 20px 0;
 }
