@@ -894,8 +894,8 @@ a {
   color: #000;
   border: 1px solid #000;
   border-radius: 40px;
-  width: 530px;
-  height: 57px;
+  width: clamp(280px, 36.80vw, 530px);
+  height: clamp(56px, 4.72vw, 68px);
   padding-left: 5%;
 }
 
@@ -942,10 +942,8 @@ a {
 
 .restaurants__map-image {
   display: block;
-  max-width: 483px;
-  max-height: 470px;
-  width: 100%;
-  height: auto;
+  width: clamp(280px, 33.54vw, 483px);
+  height: 470px;
   border-radius: 10px;
 }
 .footer {
@@ -973,19 +971,24 @@ a {
 
 .footer__title {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 100%;
+  font-size: clamp(20px, 1.67vw, 24px);
+  line-height: 1.42;
   letter-spacing: 0.4px;
-  margin: 80px 0 30px 0;
+  white-space: nowrap;
+  margin: 80px 10px 30px 0;
 }
 
 .footer__item {
   font-weight: 400;
-  font-size: 18px;
   line-height: 100%;
   margin: 0 0 30px 0;
   white-space: nowrap;
   letter-spacing: 0.4px;
+  transition: color 0.3s ease;
+}
+
+.footer__item:hover {
+  color: #f0a967;
 }
 
 .footer__card {
