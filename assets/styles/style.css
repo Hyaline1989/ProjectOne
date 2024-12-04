@@ -267,7 +267,7 @@ a {
   max-width: 1440px;
   /* margin: 0 auto; */
   /* padding-inline: 15px; */
-  height: clamp(784px, 100vh, 543px);
+  height: clamp(784px, 80vh, 543px);
   background-position: center;
   background-position-y: -34px;
   background-repeat: no-repeat;
