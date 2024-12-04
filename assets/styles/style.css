@@ -122,11 +122,15 @@ a {
 /* Ира */
 
 .header {
+
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding-inline: 15px; */
   /* display: flex;
   align-items: center;
   justify-content: space-between; */
   /* width: 100%; */
-  /* background-color: #000000; */
+  background-color: #000000;
 }
 /* 
 .header__col {
@@ -135,15 +139,17 @@ a {
   align-items: center;
   width: 100%;
   padding-left: 17px;
-  background: #000000;
+  /* background: #000000; 
 } */
 
 .header__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   /* min-width: 1153px; */
   height: 128px;
+  /* padding: 0; */
   background-color: #000000;
 }
 
@@ -247,16 +253,28 @@ a {
 }
 
 .welcome {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   /*background-size: cover;*/
   margin: 0 auto;
-  height: 700px;
+  /* height: 700px;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; */
+  background-image: url(../images/background.png);
+  /* width: 100vw; */
+  /* max-width: calc(1440px + 15px * 2); */
+  max-width: 1440px;
+  /* margin: 0 auto; */
+  /* padding-inline: 15px; */
+  height: clamp(784px, 100vh, 543px);
+  background-position: center;
+  background-position-y: -34px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin: 0 auto; */
 }
-
+/* 
 .welcome__container-background {
   position: relative;
   width: 100%;
@@ -269,28 +287,33 @@ a {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%); /* Центрирование изображения по горизонтали */
+  transform: translateX(-50%); /* Центрирование изображения по горизонтали 
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1; /* Размещение изображения на задний план, под другие элементы */
-}
-
+  z-index: -1;  Размещение изображения на задний план, под другие элементы 
+} */
+/* 
 .welcome__container > * {
   position: relative;
-  z-index: 1; /* Все элементы в контейнере будут выше изображения */
-}
+  z-index: 1; /* Все элементы в контейнере будут выше изображения 
+} */
 
 .welcome__title {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  
+  /* position: absolute;
   max-width: 652px;
   left: 135px;
   margin-bottom: 246px;
-  margin-top: 80px;
+  margin-top: 80px; */
+  /* padding: 0; */
+  padding-top: 72px;
 }
 
 .welcome__heading {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -298,7 +321,8 @@ a {
   width: 652px;
   height: 288px;
   gap: 10;
-  padding: 0px;
+  padding: 0px; */
+  padding-bottom: 10px;
   font-size: clamp(28px, 3.82vw, 55px);
   /*font-size: clamp(28px, 4.58vw, 66px);  Размер из макета */
   font-weight: 900;
@@ -309,7 +333,7 @@ a {
 }
 
 .welcome__heading-description {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -317,7 +341,7 @@ a {
   width: 510px;
   height: 60px;
   gap: 10;
-  padding: 0px;
+  padding: 0px; */
   font-size: clamp(14px, 1.39vw, 20px);
   font-weight: 200;
   /*font-weight: 400;  Толщина из макета */
@@ -327,7 +351,7 @@ a {
 }
 
 .welcome__button {
-  margin-top: 40px;
+  padding-top: 40px;
   margin-left: 0;
 }
 
