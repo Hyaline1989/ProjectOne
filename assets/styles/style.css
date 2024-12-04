@@ -121,13 +121,15 @@ a {
 
 /* Ира */
 
-.header {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background-color: #000000;
-}
 
+.header {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  /* width: 100%; */
+  /* background-color: #000000; */
+}
+/* 
 .header__col {
   display: flex;
   flex-direction: column;
@@ -135,35 +137,38 @@ a {
   width: 100%;
   padding-left: 17px;
   background: #000000;
-}
+} */
 
 .header__nav {
   display: flex;
   align-items: center;
-  min-width: 1153px;
+  justify-content: space-between;
+  /* min-width: 1153px; */
   height: 128px;
+  background-color: #000000;
 }
 
 .header__menu {
   display: flex;
   align-items: center;
-  width: 43.63%;
+  /* width: 43.63%; */
 }
 
 .header__menu-list {
   display: flex;
   align-items: center;
-  gap: 30px;
-  list-style: none;
-  margin-left: 80px;
-  padding: 0;
+  gap: 42px;
+  /* list-style: none; */
+  /* margin-left: 80px; */
+  /* padding: 0; */
 }
 
 .header__menu-link {
   color: #ffffff;
   font-weight: 500;
-  line-height: 1.11;
-  font-family: Inter, sans-serif;
+  /* font-size: 18px; */
+  line-height: 20px;
+  /* font-family: Inter, sans-serif; */
   letter-spacing: 0.4px;
   white-space: nowrap;
 }
@@ -176,28 +181,30 @@ a {
 
 .header__logo {
   display: flex;
-  gap: 8px;
+  /* gap: 8px; */
   align-items: center;
   justify-content: space-between;
-  width: 56.37%;
-  padding-left: 20px;
+  /* width: 56.37%;
+  padding-left: 20px; */
 }
 
 .header__logo-img {
   width: 100px;
-  height: 94px;
+  aspect-ratio: 1;
 }
 
 .header__actions {
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
 .header__actions-btn {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding-right: 20px;
+  gap: 30px;
+  /* gap: 8px;
+  padding-right: 20px; */
 }
 
 .header__button-icon {
@@ -215,14 +222,25 @@ a {
 }
 
 .header__actions-btn_white {
-  margin-right: 80px;
+  /* margin-right: 80px; */
 }
 
 .button_member {
   width: 232px;
   height: 70px;
-  font-size: 18px; /* Надо ли менять? */
+  font-size: 18px;
   white-space: nowrap;
+}
+
+.header__button-icon:active {
+  transform: scale(0.95);
+}
+.button_member {
+  width: 232px;
+  height: 70px;
+  font-size: 18px;
+  white-space: nowrap;
+  margin: 0;
 }
 
 .header__button-icon:active {
@@ -233,25 +251,16 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*background-size: cover;*/
+  height: 600px;
+  background: url(../images/main-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
   margin: 0 auto;
   height: 700px;
   position: relative;
   overflow: hidden;
-}
-
-.welcome__container-background {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 1440px;
-  height: 100%;
-  background-position: center; /* Позиционирование изображения по центру */
-  background-size: cover; /* Масштабирование изображения, чтобы оно заполнило контейнер */
-  background-repeat: no-repeat;
-  z-index: -1; /* Чтобы фон был под остальным содержимым */
 }
 
 .welcome__title {
@@ -273,11 +282,9 @@ a {
   height: 288px;
   gap: 10;
   padding: 0px;
-  font-size: clamp(28px, 3.82vw, 55px);
-  /*font-size: clamp(28px, 4.58vw, 66px);  Размер из макета */
-  font-weight: 900;
-  line-height: 1.75;
-  /*line-height: 1.45;  Высота из макета */
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 90px;
   letter-spacing: 0.4px;
   text-align: left;
 }
@@ -292,10 +299,9 @@ a {
   height: 60px;
   gap: 10;
   padding: 0px;
-  font-size: clamp(14px, 1.39vw, 20px);
+  font-size: 20px;
   font-weight: 200;
-  /*font-weight: 400;  Толщина из макета */
-  line-height: 1.5;
+  line-height: 30px;
   letter-spacing: 0.4px;
   text-align: left;
 }
@@ -344,24 +350,16 @@ a {
 
 .video__title-main {
   padding: 0;
-  font-weight: 700;
-  font-size: clamp(28px, 3.82vw, 50px);
-  line-height: 1.4;
-  font-family: Inter, sans-serif;
+  font: 700 50px Inter, sans-serif;
   color: #ffffff;
   text-align: center;
-  letter-spacing: 0.4px;
 }
 
 .video__title-descripton {
   margin-top: 20px;
-  font-weight: 400;
-  font-size: clamp(14px, 1.39vw, 20px);
-  line-height: 1.67;
-  font-family: Inter, sans-serif;
+  font: 400 20px/30px Inter, sans-serif;
   color: #ffffff;
   text-align: center;
-  letter-spacing: 0.4px;
 }
 
 .video__article {
@@ -375,22 +373,16 @@ a {
 
 .video__article-content {
   max-width: 515px;
-  font-weight: 400;
-  line-height: 1.67;
-  font-family: Inter, sans-serif;
+  font: 400 18px/30px Inter, sans-serif;
   color: #eeeeee;
   text-align: left;
-  letter-spacing: 0.4px;
 }
 
 .video__article-content_bold {
-  font-weight: 700;
-  line-height: 1.67;
-  font-family: Inter, sans-serif;
+  font: 700 18px/30px Inter, sans-serif;
   color: #ffffff;
   text-align: left;
   cursor: pointer;
-  letter-spacing: 0.4px;
 }
 
 .video__article-content_bold:hover {
