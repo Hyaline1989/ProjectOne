@@ -121,8 +121,6 @@ a {
 
 /* Ира */
 
-
-
 .header {
   /* display: flex;
   align-items: center;
@@ -252,12 +250,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
-  background: url(../images/main-image.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: cover;
+  /*background-size: cover;*/
   margin: 0 auto;
   height: 700px;
   position: relative;
@@ -265,17 +258,27 @@ a {
 }
 
 .welcome__container-background {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   width: 100%;
   max-width: 1440px;
   height: 100%;
-  background-position: center; /* Позиционирование изображения по центру */
-  background-size: cover; /* Масштабирование изображения, чтобы оно заполнило контейнер */
-  background-repeat: no-repeat;
-  z-index: -1; /* Чтобы фон был под остальным содержимым */
+  margin: 0 auto;
+}
+
+.welcome__image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Центрирование изображения по горизонтали */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Размещение изображения на задний план, под другие элементы */
+}
+
+.welcome__container > * {
+  position: relative;
+  z-index: 1; /* Все элементы в контейнере будут выше изображения */
 }
 
 .welcome__title {
@@ -297,9 +300,11 @@ a {
   height: 288px;
   gap: 10;
   padding: 0px;
-  font-size: 55px;
-  font-weight: 800;
-  line-height: 90px;
+  font-size: clamp(28px, 3.82vw, 55px);
+  /*font-size: clamp(28px, 4.58vw, 66px);  Размер из макета */
+  font-weight: 900;
+  line-height: 1.75;
+  /*line-height: 1.45;  Высота из макета */
   letter-spacing: 0.4px;
   text-align: left;
 }
@@ -314,9 +319,10 @@ a {
   height: 60px;
   gap: 10;
   padding: 0px;
-  font-size: 20px;
+  font-size: clamp(14px, 1.39vw, 20px);
   font-weight: 200;
-  line-height: 30px;
+  /*font-weight: 400;  Толщина из макета */
+  line-height: 1.5;
   letter-spacing: 0.4px;
   text-align: left;
 }
@@ -894,7 +900,7 @@ a {
   color: #000;
   border: 1px solid #000;
   border-radius: 40px;
-  width: clamp(280px, 36.80vw, 530px);
+  width: clamp(280px, 36.8vw, 530px);
   height: clamp(56px, 4.72vw, 68px);
   padding-left: 5%;
 }
