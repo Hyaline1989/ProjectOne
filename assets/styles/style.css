@@ -93,19 +93,23 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  color: #000000;
 }
 
 .menu__button {
   max-width: 168px;
+  color: #000000;
 }
 
 .franchise__button {
   max-width: 294px;
+  color: #000000;
 }
 
 .restaurants__button {
   max-width: 337px;
   margin-left: 0;
+  color: #000000;
 }
 
 .support__button {
