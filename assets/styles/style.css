@@ -364,7 +364,7 @@ a {
   padding-bottom: 150px;
 }
 
-.video__section_best {
+.video__section-best {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -374,7 +374,7 @@ a {
   justify-content: center;
 }
 
-.video__section_best-food-market {
+.video__section-food-market {
   flex: 1;
   max-width: clamp(300px, 40vw, 570px);
   display: flex;
@@ -432,7 +432,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-.video__article-content_bold {
+.video__article-content-bold {
   font-weight: 700;
   line-height: 1.67;
   /* font-family: Inter, sans-serif; */
