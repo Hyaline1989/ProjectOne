@@ -393,7 +393,7 @@ a {
 
 .video__title-main {
   font-weight: 700;
-  font-size: clamp(28px, 3.82vw, 50px);
+  font-size: clamp(28px, 3.47vw, 50px);
   line-height: 1.4;
   /* font-family: Inter, sans-serif; */
   color: #ffffff;
@@ -423,7 +423,8 @@ a {
 }
 
 .video__article-content {
-  max-width: clamp(300px, 40vw, 515px);
+  /* width: clamp(280px, 27.8vw, 570px); */
+  flex: 1;
   font-weight: 400;
   line-height: 1.67;
   /* font-family: Inter, sans-serif; */
@@ -447,8 +448,9 @@ a {
 }
 
 .video__box {
-  flex: 0 0 auto;
-  width: clamp(300px, 40vw, 570px);
+  flex: 0 0 1;
+  /* width: clamp(300px, 40vw, 570px); */
+  width: clamp(280px, 27.8vw, 570px);
 }
 
 .video__box-food-maker {
@@ -456,7 +458,8 @@ a {
   background: url(../images/video.jpg) 50% / cover no-repeat;
   border-radius: 12px;
   width: 100%;
-  height: clamp(200px, 27.8vw, 400px);
+  /* height: clamp(200px, 27.8vw, 400px); */
+  height: clamp(220px, calc(27.8vw * 0.77), 430px);
 }
 
 .video__box-food-maker-content {
