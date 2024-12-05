@@ -448,19 +448,25 @@ a {
 
 .video__box {
   flex: 0 0 auto;
-  min-width: 570px;
+  width: clamp(300px, 40vw, 570px);
 }
 
 .video__box-food-maker {
+  position: relative;
   background: url(../images/video.jpg) 50% / cover no-repeat;
   border-radius: 12px;
+  width: 100%;
+  height: clamp(200px, 27.8vw, 400px);
 }
 
 .video__box-food-maker-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 169px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .video__button {
@@ -470,8 +476,8 @@ a {
 }
 
 .video__button img {
-  width: 80px;
-  height: 80px;
+  width: clamp(50px, 5vw, 80px);
+  height: auto;
   transition: transform 0.3s;
 }
 
