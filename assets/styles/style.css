@@ -221,10 +221,6 @@ a {
   height: 34px;
 }
 
-.header__actions-btn_white {
-  /* margin-right: 80px; */
-}
-
 .button_member {
   width: 232px;
   height: 70px;
@@ -235,7 +231,7 @@ a {
 .header__button-icon:active {
   transform: scale(0.95);
 }
-.button_member {
+.header__button-member {
   width: 232px;
   height: 70px;
   font-size: 18px;
