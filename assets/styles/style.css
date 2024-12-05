@@ -82,6 +82,7 @@ a {
   letter-spacing: 0.4px;
   cursor: pointer;
   background: #ffffff;
+  white-space: nowrap;
 }
 
 .button:active {
