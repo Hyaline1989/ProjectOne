@@ -369,10 +369,11 @@ a {
 
 .video__section_best {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 30px;
-  align-items: flex-start;
-  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .video__section_best-food-market {
@@ -387,10 +388,7 @@ a {
 }
 
 .video__title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  text-align: center;
   max-width: 822px;
 }
 
@@ -421,6 +419,7 @@ a {
   gap: 87px;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .video__article-content {
