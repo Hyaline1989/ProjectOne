@@ -83,6 +83,7 @@ a {
   cursor: pointer;
   background: #ffffff;
   white-space: nowrap;
+  color: #000000;
 }
 
 .button:active {
@@ -93,23 +94,19 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: #000000;
 }
 
 .menu__button {
   max-width: 168px;
-  color: #000000;
 }
 
 .franchise__button {
   max-width: 294px;
-  color: #000000;
 }
 
 .restaurants__button {
   max-width: 337px;
   margin-left: 0;
-  color: #000000;
 }
 
 .support__button {
@@ -244,7 +241,6 @@ a {
   font-size: 18px;
   white-space: nowrap;
   margin: 0;
-  color: #000000;
 }
 
 .header__button-icon:active {
@@ -352,7 +348,6 @@ a {
 .welcome__button {
   padding-top: 40px;
   margin-left: 0;
-  color: #000000;
 }
 
 .button_order {
