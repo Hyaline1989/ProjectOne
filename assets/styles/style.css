@@ -390,6 +390,7 @@ a {
 .video__title {
   text-align: center;
   max-width: 822px;
+  white-space: nowrap;
 }
 
 .video__title-main {
