@@ -240,6 +240,7 @@ a {
   font-size: 18px;
   white-space: nowrap;
   margin: 0;
+  color: #000000;
 }
 
 .header__button-icon:active {
@@ -347,6 +348,7 @@ a {
 .welcome__button {
   padding-top: 40px;
   margin-left: 0;
+  color: #000000;
 }
 
 .button_order {
@@ -373,7 +375,8 @@ a {
   gap: 30px;
   width: 100%;
   align-items: center;
-  justify-content: flex-start;
+  /*justify-content: flex-start; */
+  justify-content: center;
 }
 
 .video__section_best-food-market {
@@ -408,7 +411,7 @@ a {
   font-weight: 400;
   font-size: clamp(14px, 1.39vw, 20px);
   line-height: 1.67;
-  font-family: Inter, sans-serif;
+  /*font-family: Inter, sans-serif; */
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.4px;
@@ -421,6 +424,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .video__article-content {
