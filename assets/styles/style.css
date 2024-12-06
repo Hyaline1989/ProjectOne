@@ -569,6 +569,7 @@ a {
   flex-direction: row;
   gap: 87px;
   justify-content: space-between;
+  align-items: center;
   /*justify-content: center;*/
   /*width: 100%;*/
   /*flex-wrap: wrap;*/
@@ -1161,6 +1162,7 @@ a {
   /* Ира */
   .video__article {
     gap: 105px;
+    align-items: flex-start;
   }
 
   /* Света */
