@@ -576,7 +576,7 @@ a {
 }
 
 .video__article-content {
-  width: clamp(280px, 27.8vw, 570px);
+  /*width: clamp(280px, 27.8vw, 570px);*/
   /*flex: 1;*/
   /*flex: 0 1 calc(50% - 87px);*/
   font-weight: 400;
@@ -647,65 +647,6 @@ a {
 
 .video__button:active {
   transform: scale(0.95);
-}
-
-/* Адаптивность блока с видео
-
-@media (max-width: 768px) {
-  .video__section {
-    padding: 100px 10px;
-  }
-
-  .video__article {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .video__article-content {
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .video__box {
-    min-width: 100%;
-  }
-
-  .video__title-main {
-    font-size: 36px;
-  }
-
-  .video__title-descripton {
-    font-size: 16px;
-  }
-
-  .video__box-food-maker-content {
-    padding: 80px 0;
-  }
-
-  .video__button img {
-    width: 60px;
-    height: 60px;
-  }
-}
-
-@media (max-width: 480px) {
-  .video__title-main {
-    font-size: 28px;
-  }
-
-  .video__title-descripton {
-    font-size: 14px;
-  }
-
-  .video__article-content {
-    font-size: 14px;
-    line-height: 1.6;
-  }
-
-  .video__button img {
-    width: 50px;
-    height: 50px;
-  }
 }
 
 /* Света */
