@@ -84,10 +84,12 @@ a {
   background: #ffffff;
   white-space: nowrap;
   color: #000000;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .button:active {
   transform: scale(0.95);
+  outline: none;
 }
 
 .menu__button-wrapper {
