@@ -1075,6 +1075,9 @@ a {
 
 @media (max-width: 1210px) {
   /* Ира */
+  .video__article {
+    gap: 40px;
+  }
 
   /* Света */
   .menu__grid {
