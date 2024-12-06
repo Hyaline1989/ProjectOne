@@ -1180,6 +1180,16 @@ a {
 
 @media (max-width: 992px) {
   /* Ира */
+
+  /* Бургер меню */
+  .header__burger-menu {
+    display: flex;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
   .video__section {
     padding-top: 130px;
     padding-bottom: 130px;
@@ -1198,16 +1208,6 @@ a {
 
   .video__article-content {
     text-align: center;
-  }
-
-  /* Бургер меню */
-
-  .header__burger-menu {
-    display: flex;
-  }
-
-  .header__menu {
-    display: none;
   }
 
   /* Света */
@@ -1249,6 +1249,16 @@ a {
 
 @media (max-width: 780px) {
   /* Ира */
+
+  /* Показ меню при активном чекбоксе */
+  /* .burger-menu {
+    display: flex;
+  }
+
+  .burger-menu__toggle:checked ~ .burger-menu__nav {
+  display: flex;
+  } */
+
   .video__section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1260,15 +1270,6 @@ a {
   .video__article {
     gap: 50px;
   }
-
-  /* Показ меню при активном чекбоксе */
-  /* .burger-menu {
-    display: flex;
-  }
-
-  .burger-menu__toggle:checked ~ .burger-menu__nav {
-  display: flex;
-  } */
 
   /* Света */
   .menu__filters {
