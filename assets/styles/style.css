@@ -302,12 +302,12 @@ a {
   gap: 10;
   padding: 0px; */
   padding-bottom: 10px;
-  font-size: clamp(28px, 3.82vw, 55px);
-  /*font-size: clamp(28px, 4.58vw, 66px);  Размер из макета */
+  /* font-size: clamp(28px, 3.82vw, 55px); */
+  font-size: clamp(29px, 4.58vw, 66px); 
   font-weight: 900;
-  line-height: 1.75;
-  /*line-height: 1.45;  Высота из макета */
-  letter-spacing: 0.4px;
+  /* line-height: 1.75; */
+  line-height: 1.45;
+  /* letter-spacing: 0.4px; */
   text-align: left;
 }
 
