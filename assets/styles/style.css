@@ -63,7 +63,6 @@ a {
 .button {
   gap: 10px;
   padding: 20px 34px 20px 34px;
-  margin: 0px 30px;
   border: none;
   border-radius: 40px;
   font-weight: 700;
@@ -104,6 +103,7 @@ a {
   max-width: 198px;
   background: #000000;
   color: #ffffff;
+  margin: 0px 30px;
 }
 
 /* Ира */
