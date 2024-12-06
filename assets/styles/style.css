@@ -449,22 +449,16 @@ a {
 }
 
 .video__box {
-  flex: 0 0 1;
-  /* width: clamp(300px, 40vw, 570px); */
+  flex: 1;
   width: clamp(280px, 27.8vw, 570px);
 }
 
 .video__box-food-maker {
   position: relative;
-  background: url(../images/video.jpg) 50% / cover no-repeat;
+  background: url(../images/video.jpg) center center / cover no-repeat;
   border-radius: 12px;
   width: 100%;
-  /* height: clamp(200px, 27.8vw, 400px); */
-  height: clamp(
-    220px,
-    calc(27.8vw * 0.77),
-    430px
-  ); /* адаптивная высота, пропорциональная ширине, высота на ширину 220/280 = 0.77 */
+  height: 100%;
 }
 
 .video__box-food-maker-content {
@@ -1085,22 +1079,8 @@ a {
   padding: 20px 0 30px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1210px) {
   /* Ира */
-
 
   /* Света */
   .menu__grid {
@@ -1113,11 +1093,8 @@ a {
   /* Катя */
 }
 
-
-
 @media (max-width: 992px) {
   /* Ира */
-
 
   /* Света */
   .achievements {
@@ -1135,65 +1112,52 @@ a {
   /* Катя */
 }
 
-
-
 @media (max-width: 780px) {
   /* Ира */
 
-
   /* Света */
-.menu__filters {
-  column-gap: 60px;
-  justify-content: space-evenly;
-}
+  .menu__filters {
+    column-gap: 60px;
+    justify-content: space-evenly;
+  }
 
-.achievements__items {
-  flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 20px;
-}
+  .achievements__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
 
-.reviews__title{
-  padding-bottom: 50px;
-}
+  .reviews__title {
+    padding-bottom: 50px;
+  }
 
-.reviews {
-  margin-bottom: 90px;
-}
+  .reviews {
+    margin-bottom: 90px;
+  }
 
-.menu__items {
-  margin-bottom: 50px;
-}
-
-
+  .menu__items {
+    margin-bottom: 50px;
+  }
 
   /* Катя */
 }
 
-
-
-
 @media (max-width: 576px) {
   /* Ира */
-
 
   /* Света */
   .menu__filters {
     column-gap: 30px;
   }
 
-
   /* Катя */
 }
-
-
 
 @media (max-width: 480px) {
   /* Ира */
 
-
   /* Света */
-  
+
   .menu__items {
     /* height: 46px; */
     margin-bottom: 30px;
@@ -1219,11 +1183,9 @@ a {
     padding-bottom: 30px;
   }
 
-  .reviews__title{
+  .reviews__title {
     padding-bottom: 30px;
   }
-
-
 
   /* Катя */
   /* Катины медиазапросы, ваши все выше */
@@ -1321,8 +1283,6 @@ a {
     margin-top: 60px;
   }
 }
-
-
 
 @media (max-width: 320px) {
   /* Ира */
