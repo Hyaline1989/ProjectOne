@@ -1123,8 +1123,10 @@ a {
   white-space: nowrap;
   letter-spacing: 0.4px;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
+.footer__list a:hover,
 .footer__item:hover {
   color: #f0a967;
   cursor: pointer;
