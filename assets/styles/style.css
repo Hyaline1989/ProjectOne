@@ -130,7 +130,8 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   /* min-width: 1153px; */
-  height: 128px;
+  /* height: 128px; */
+  height: clamp(128px, 8.89vh, 280px);
   /* padding: 0; */
   background-color: #000000;
 }
@@ -246,7 +247,8 @@ a {
   max-width: 1440px;
   /* margin: 0 auto; */
   /* padding-inline: 15px; */
-  height: clamp(784px, 80vh, 543px);
+  /* height: clamp(784px, 80vh, 543px); */
+  height: clamp(543px, 85.96vh, 784px);
   background-position: center;
   background-position-y: -34px;
   background-repeat: no-repeat;
