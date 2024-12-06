@@ -398,9 +398,9 @@ a {
   font-weight: 700;
   font-size: clamp(28px, 3.47vw, 50px);
   line-height: 1.4;
-  /* font-family: Inter, sans-serif; */
   color: #ffffff;
   letter-spacing: 0.4px;
+  text-align: center;
 }
 
 .video__title-descripton {
@@ -408,36 +408,37 @@ a {
   font-weight: 400;
   font-size: clamp(14px, 1.39vw, 20px);
   line-height: 1.67;
-  /*font-family: Inter, sans-serif; */
   color: #ffffff;
   letter-spacing: 0.4px;
+  text-align: center;
 }
 
 .video__article {
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row;*/
   gap: 87px;
   justify-content: center;
-  align-content: center;
+  /*align-content: center;*/
   width: 100%;
   flex-wrap: wrap;
 }
 
 .video__article-content {
   /* width: clamp(280px, 27.8vw, 570px); */
-  flex: 1;
+  /*flex: 1;*/
+  flex: 0 1 calc(50% - 87px);
   font-weight: 400;
   line-height: 1.67;
-  /* font-family: Inter, sans-serif; */
   color: #eeeeee;
   text-align: left;
   letter-spacing: 0.4px;
+  min-width: 280px;
+  max-width: 570px;
 }
 
 .video__article-content-bold {
   font-weight: 700;
   line-height: 1.67;
-  /* font-family: Inter, sans-serif; */
   color: #ffffff;
   text-align: left;
   cursor: pointer;
@@ -449,16 +450,23 @@ a {
 }
 
 .video__box {
-  flex: 1;
-  width: clamp(280px, 27.8vw, 570px);
+  display: flex;
+  /*flex: 1;*/
+  flex: 0 1 calc(50% - 87px);
+  min-width: 280px;
+  max-width: 570px;
+  justify-content: center;
+  align-items: center;
 }
 
 .video__box-food-maker {
   position: relative;
   background: url(../images/video.jpg) center center / cover no-repeat;
   border-radius: 12px;
-  width: 100%;
-  height: 100%;
+  /*width: clamp(280px, 27.8vw, 570px);*/
+  /*height: 100%;*/
+  width: clamp(280px, 50vw, 570px);
+  height: clamp(220px, 40vw, 430px);
 }
 
 .video__box-food-maker-content {
