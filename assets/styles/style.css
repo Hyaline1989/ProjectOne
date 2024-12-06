@@ -416,8 +416,8 @@ a {
   display: flex;
   flex-direction: row;
   gap: 87px;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -459,7 +459,11 @@ a {
   border-radius: 12px;
   width: 100%;
   /* height: clamp(200px, 27.8vw, 400px); */
-  height: clamp(220px, calc(27.8vw * 0.77), 430px);
+  height: clamp(
+    220px,
+    calc(27.8vw * 0.77),
+    430px
+  ); /* адаптивная высота, пропорциональная ширине, высота на ширину 220/280 = 0.77 */
 }
 
 .video__box-food-maker-content {
