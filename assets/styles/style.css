@@ -364,7 +364,7 @@ a {
   padding-bottom: 150px;
 }
 
-.video__section_best {
+.video__section-best {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -374,9 +374,8 @@ a {
   justify-content: center;
 }
 
-.video__section_best-food-market {
-  flex: 1;
-  max-width: clamp(300px, 40vw, 570px);
+.video__section-food-market {
+  /* max-width: clamp(300px, 40vw, 570px); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -386,18 +385,21 @@ a {
 }
 
 .video__title {
-  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; */
   max-width: 822px;
-  white-space: nowrap;
+  margin: 0 auto;
+  /* white-space: nowrap; */
 }
 
 .video__title-main {
   font-weight: 700;
-  font-size: clamp(28px, 3.82vw, 50px);
+  font-size: clamp(28px, 3.47vw, 50px);
   line-height: 1.4;
   /* font-family: Inter, sans-serif; */
   color: #ffffff;
-  text-align: center;
   letter-spacing: 0.4px;
 }
 
@@ -408,7 +410,6 @@ a {
   line-height: 1.67;
   /*font-family: Inter, sans-serif; */
   color: #ffffff;
-  text-align: center;
   letter-spacing: 0.4px;
 }
 
@@ -416,14 +417,15 @@ a {
   display: flex;
   flex-direction: row;
   gap: 87px;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
   width: 100%;
   flex-wrap: wrap;
 }
 
 .video__article-content {
-  max-width: clamp(300px, 40vw, 515px);
+  /* width: clamp(280px, 27.8vw, 570px); */
+  flex: 1;
   font-weight: 400;
   line-height: 1.67;
   /* font-family: Inter, sans-serif; */
@@ -432,7 +434,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-.video__article-content_bold {
+.video__article-content-bold {
   font-weight: 700;
   line-height: 1.67;
   /* font-family: Inter, sans-serif; */
@@ -447,8 +449,9 @@ a {
 }
 
 .video__box {
-  flex: 0 0 auto;
-  width: clamp(300px, 40vw, 570px);
+  flex: 0 0 1;
+  /* width: clamp(300px, 40vw, 570px); */
+  width: clamp(280px, 27.8vw, 570px);
 }
 
 .video__box-food-maker {
@@ -456,7 +459,12 @@ a {
   background: url(../images/video.jpg) 50% / cover no-repeat;
   border-radius: 12px;
   width: 100%;
-  height: clamp(200px, 27.8vw, 400px);
+  /* height: clamp(200px, 27.8vw, 400px); */
+  height: clamp(
+    220px,
+    calc(27.8vw * 0.77),
+    430px
+  ); /* адаптивная высота, пропорциональная ширине, высота на ширину 220/280 = 0.77 */
 }
 
 .video__box-food-maker-content {
