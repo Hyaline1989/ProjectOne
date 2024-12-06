@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Inter";
-  src: url(/assets/fonts/Inter/Inter18pt-Black.woff2) format("woff2");
+  src: url(../fonts/inter_black.woff2) format("woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url(/assets/fonts/Inter/Inter18pt-Bold.woff2) format("woff2");
+  src: url(../fonts/inter_bold.woff2) format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url(/assets/fonts/Inter/Inter18pt-Medium.woff2) format("woff2");
+  src: url(../fonts/inter_medium.woff2) format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url(/assets/fonts/Inter/Inter18pt-Regular.woff2) format("woff2");
+  src: url(../fonts/inter_regular.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -32,23 +32,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url(/assets/fonts/Inter/Inter18pt-SemiBold.woff2) format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url(/assets/fonts/Poppins/Poppins-Medium.woff2) format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url(/assets/fonts/Poppins/Poppins-SemiBold.woff2) format("woff2");
+  src: url(../fonts/inter_semibold.woff2) format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
