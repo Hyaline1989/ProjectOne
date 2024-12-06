@@ -568,7 +568,6 @@ a {
   display: flex;
   flex-direction: row;
   gap: 87px;
-  align-items: center;
   justify-content: space-between;
   /*justify-content: center;*/
   /*width: 100%;*/
@@ -610,7 +609,6 @@ a {
   justify-content: center;
   align-items: center;*/
   flex: 0 0 auto;
-  width: clamp(300px, 40vw, 570px);
 }
 
 .video__box-food-maker {
@@ -1170,12 +1168,13 @@ a {
 @media (max-width: 1210px) {
   /* Ира */
   .video__article {
-    gap: 40px;
+    gap: 150px;
   }
 
   /* Света */
   .menu__grid {
     column-gap: 0;
+    align-items: flex-start;
   }
 
   .reviews__grid {
