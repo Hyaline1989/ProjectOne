@@ -85,6 +85,7 @@ a {
   white-space: nowrap;
   color: #000000;
   -webkit-tap-highlight-color: transparent;
+  transition: transform 0.2s ease;
 }
 
 .button:active {
