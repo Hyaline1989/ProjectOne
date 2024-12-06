@@ -1180,6 +1180,25 @@ a {
 
 @media (max-width: 992px) {
   /* Ира */
+  .video__section {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+
+  .video__section-best {
+    gap: 50px;
+  }
+
+  .video__article {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .video__article-content {
+    text-align: center;
+  }
 
   /* Бургер меню */
 
@@ -1230,6 +1249,17 @@ a {
 
 @media (max-width: 780px) {
   /* Ира */
+  .video__section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .video__section-best {
+    gap: 40px;
+  }
+
+  .video__article {
+    gap: 50px;
+  }
 
   /* Показ меню при активном чекбоксе */
   /* .burger-menu {
@@ -1283,9 +1313,6 @@ a {
 
 @media (max-width: 576px) {
   /* Ира */
-  .video__article-content {
-    text-align: center;
-  }
 
   /* Света */
   .menu__filters {
@@ -1319,6 +1346,18 @@ a {
 
 @media (max-width: 480px) {
   /* Ира */
+  .video__section {
+    padding-top: 47px;
+    padding-bottom: 90px;
+  }
+
+  .video__section-best {
+    gap: 20px;
+  }
+
+  .video__article {
+    gap: 30px;
+  }
 
   /* Света */
 
