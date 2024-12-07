@@ -87,14 +87,6 @@ a {
   justify-content: center;
 }
 
-/*.menu__button {
-  max-width: 168px;
-} */
-
-/*.franchise__button {
-  max-width: 294px;
-} */
-
 .restaurants__button {
   max-width: 337px;
   margin-left: 0;
@@ -102,7 +94,6 @@ a {
 }
 
 .support__button {
-  /*max-width: 198px; */
   background: #000000;
   color: #ffffff;
   margin: 0px 30px;
@@ -633,7 +624,6 @@ a {
 }
 
 .menu__items {
-  /* height: 46px; */
   margin-bottom: 80px;
 }
 
@@ -648,10 +638,10 @@ a {
 
 .menu__filter {
   padding: 8px 20px;
-  border-bottom: 4px solid transparent;
   font-weight: 400;
   line-height: 1.67;
   text-align: center;
+  border-bottom: 4px solid transparent;
   transform: translateZ(0);
 }
 
@@ -751,12 +741,10 @@ a {
 }
 
 .menu__card-button:hover::after {
-  /* padding: 0; */
   width: 40px;
   aspect-ratio: 1;
   border-radius: 50px;
   background-image: none;
-  /* border: 1px solid #ffffff; */
   background-color: #ffffff;
   transition-duration: 0.2s;
 }
@@ -764,7 +752,6 @@ a {
 .menu__card-button:active {
   transform: scale(0.95);
   background-color: #ffffff;
-  /* border: 1px solid #ffffff; */
 }
 
 .menu__card-button.active {
@@ -772,38 +759,9 @@ a {
   border: 1px solid #f0a967;
 }
 
-/* background-size: contain; */
-/* z-index: 2; */
-/* }
-
-.menu__card-button.active::after {
-  background-image: url(../images/icons/shopping-cart-black.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  
-} */
-
 .menu__button {
   margin-top: 80px;
-  /* margin-bottom: 150px; */
 }
-
-/* .button {
-  display: inline-flex;
-  align-items: center;
-  height: 48px;
-  padding-inline: 26px;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
-  white-space: nowrap;
-  background-color: #FFFFFF;
-  border: none;
-  border-radius: 30px;;
-}  */
 
 /* Стили для карточек */
 
@@ -837,7 +795,6 @@ a {
 
 .achievements__items {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
 }
@@ -933,8 +890,6 @@ a {
   grid-column: 1/2;
   grid-row: 1/5;
   object-fit: cover;
-  /* border: 2px solid #191919;
-  border-radius: 50px; */
 }
 
 .reviews__name {
@@ -948,7 +903,6 @@ a {
 .reviews__position {
   grid-column: 2/3;
   grid-row: 2/5;
-  /* align-content: end; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.57;
@@ -982,8 +936,8 @@ a {
 }
 
 .reviews__list:hover {
-  transform: scale(1.05); /* Лёгкое увеличение */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Стили Кати для нижних секций. */
