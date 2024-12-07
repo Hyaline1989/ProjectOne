@@ -691,7 +691,7 @@ a {
 
 .menu__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-items: center;
   column-gap: 30px;
   row-gap: 40px;
@@ -917,7 +917,7 @@ a {
 
 .reviews__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-items: center;
   column-gap: 30px;
   row-gap: 40px;
@@ -1167,12 +1167,12 @@ a {
 
   /* Света */
   .menu__grid {
-    column-gap: 0;
+    column-gap: 20px;
     align-items: flex-start;
   }
 
   .reviews__grid {
-    column-gap: 0;
+    column-gap: 20px;
   }
   /* Катя */
   /* Тут, кажется и так всё смотрится нормально */
