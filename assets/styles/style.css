@@ -1329,9 +1329,42 @@ a {
 
 @media (max-width: 576px) {
   /* Ира */
+
+  .body {
+    background-image: url(../images/map.jpg);
+  }
+
+  .header {
+    background-color: transparent;
+  }
+
+  .header__burger-btn  {
+    padding-top: 80px;
+  }
+
   .header__button-icon--none {
     display: none;
   }
+
+  .header__button-img {
+    padding-top: 80px;
+  }
+
+  .header__logo-img {
+    width: 59px;
+    padding-bottom: 30px;
+  }
+
+  .header__nav {
+    height: 130px;
+    background-color: transparent;
+  }
+
+  .welcome {
+    background-image: none;
+  }
+
+
 
   .support__button {
     padding: 16px 95px 16px 95px;
