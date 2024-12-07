@@ -272,7 +272,6 @@ a {
   padding-inline: 1px;
 }
 
-
 .header__burger-btn > span,
 .header__burger-btn > span::before,
 .header__burger-btn > span::after {
@@ -1347,15 +1346,12 @@ a {
 @media (max-width: 576px) {
   /* Ира */
 
-body {
-
-  background-image: url(../images/background_mobile.png);
-  background-repeat: no-repeat;
-  background-size:  contain;
-  background-position: top center;
-}
-
-
+  body {
+    background-image: url(../images/background_mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+  }
 
   /* 
   .header, .welcome {
@@ -1390,7 +1386,7 @@ body {
   .welcome__button {
     margin: 0 auto;
   }
-  
+
   .header {
     background-color: transparent;
   }
