@@ -65,6 +65,7 @@ a {
   padding: 24px 50px;
   border: none;
   border-radius: 40px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.4px;
   cursor: pointer;
@@ -1246,6 +1247,31 @@ a {
 
 @media (max-width: 780px) {
   /* Ира */
+
+  .header__button-member {
+    display: none;
+  }
+
+  .welcome__button {
+    padding: 16px 84px 16px 84px;
+  }
+
+  .menu__button {
+    padding: 16px 110px 16px 110px;
+  }
+
+  .franchise__button {
+    padding: 20px 47px 20px 47px;
+  }
+
+  .support__button {
+    padding: 16px 95px 16px 95px;
+  }
+
+  .restaurants__button {
+    padding: 17px 38px 17px 38px;
+    width: 280px;
+  }
 
   /* Показ меню при активном чекбоксе */
   /* .burger-menu {
