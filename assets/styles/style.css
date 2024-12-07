@@ -406,7 +406,7 @@ a {
   /* margin: 0 auto; */
   /* padding-inline: 15px; */
   /* height: clamp(784px, 80vh, 543px); */
-  height: clamp(371px, 85.96vh, 784px);
+  height: clamp(573px, 85.96vh, 784px);
   background-position: center;
   background-position-y: -34px;
   background-repeat: no-repeat;
@@ -663,7 +663,7 @@ a {
   border-top-right-radius: 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  text-decoration: 0.2s;
+  transition: 0.2s;
 }
 
 .menu__filter--active {
@@ -1419,6 +1419,7 @@ body {
 
   .welcome {
     background-image: none;
+    height: clamp(400px, 85.96vh, 584px);
   }
 
   .support__button {
