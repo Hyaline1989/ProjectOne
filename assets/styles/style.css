@@ -1349,16 +1349,11 @@ a {
 
 body {
 
-  background-image: url(../images/background.png);
+  background-image: url(../images/background_mobile.png);
   background-repeat: no-repeat;
-  background-size: contain contain;
-  background-position: center top;
-
+  background-size:  contain;
+  background-position: top center;
 }
-
-
-
-
 
 
 
