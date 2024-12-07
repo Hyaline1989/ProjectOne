@@ -2,8 +2,8 @@
 ___
 
 ## Описание / Description
-Данный проект представляет собой вёрстку страницы ресторана по макету из Figma. Страница создана на чистом HTML и CSS без использования фреймворков и библиотек. Это наш первый совместный проект, выполненный после изучения основ вёрстки, и он служит демонстрацией базовых навыков работы с HTML и CSS. <br><br>
-This project is a layout of a restaurant page based on a layout from Figma. The page is created in pure HTML and CSS without using frameworks and libraries. This is our first joint project, completed after learning the basics of layout, and it serves as a demonstration of basic HTML and CSS skills.
+Данный проект представляет собой вёрстку страницы ресторана по макету из Figma. Страница создана на чистом HTML и CSS без использования фреймворков и библиотек. Это наш первый совместный проект, выполненный после изучения основ вёрстки, и он служит демонстрацией базовых навыков работы с HTML,CSS и тренеровкой командной работы по методологии Agile. К проекту применена адаптивность.<br><br>
+This project is a layout of a restaurant page based on a layout from Figma. The page is created in pure HTML and CSS without using frameworks and libraries. This is our first joint project, completed after learning the basics of layout, and it serves as a demonstration of basic skills in working with HTML, CSS and coaching teamwork using the Agile methodology. Adaptability has been applied to the project.
 
 ---
 
