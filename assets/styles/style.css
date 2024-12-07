@@ -217,6 +217,10 @@ a {
   outline: none;
 }
 
+.header__burger-btn:focus {
+  outline: none;
+}
+
 .header__burger-btn > span,
 .header__burger-btn > span::before,
 .header__burger-btn > span::after {
