@@ -1232,6 +1232,7 @@ a {
   }
   .support__form {
     justify-content: center;
+    align-items: center;
     margin: 0 0 50px 0;
   }
   .restaurants__container {
@@ -1430,6 +1431,7 @@ a {
     text-align: center;
     gap: 15px;
     box-sizing: border-box;
+    align-items: center;
   }
 
   .support__container {
@@ -1443,8 +1445,7 @@ a {
   .support__input {
     padding: 0;
     text-indent: 10%;
-    align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .restaurants__container {
