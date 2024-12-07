@@ -939,18 +939,16 @@ a {
 
 
 
-/* Начало медиазапросов */
+/* Медиазапросы */
 
 
 
 @media (max-width: 1210px) {
-  /* Ира */
   .video__article {
     gap: 105px;
     align-items: flex-start;
   }
 
-  /* Света */
   .menu__grid {
     column-gap: 20px;
     align-items: flex-start;
@@ -962,9 +960,6 @@ a {
 }
 
 @media (max-width: 992px) {
-  /* Ира */
-
-  /* Бургер меню */
   .header__burger-menu {
     display: flex;
   }
@@ -993,37 +988,43 @@ a {
     text-align: center;
   }
 
-  /* Света */
   .achievements {
     margin-top: 100px;
   }
+
   .achievements__content {
     margin-bottom: 130px;
   }
+
   .franchise__button {
     margin-bottom: 130px;
   }
+
   .reviews {
     margin-bottom: 130px;
   }
-  /* Катя */
+
   .support {
     margin: 0;
     height: auto;
   }
+
   .support__title {
     margin: 50px 0 0 0;
   }
+
   .support__form {
     justify-content: center;
     align-items: center;
     margin: 0 0 50px 0;
   }
+
   .restaurants__container {
     margin: 0;
     padding: 10px 0;
     height: auto;
   }
+
   .restaurants__content {
     width: auto;
     height: auto;
@@ -1032,8 +1033,6 @@ a {
 }
 
 @media (max-width: 780px) {
-  /* Ира */
-
   .header__button-member {
     display: none;
   }
@@ -1054,6 +1053,7 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
   .video__section-best {
     gap: 40px;
   }
@@ -1062,10 +1062,9 @@ a {
     gap: 50px;
   }
 
-  /* Света */
   .menu__filters {
-    column-gap: 60px;
     justify-content: space-evenly;
+    column-gap: 60px;
   }
 
   .achievements__items {
@@ -1086,7 +1085,6 @@ a {
     margin-bottom: 50px;
   }
 
-  /* Катя */
   .support {
     width: auto;
     height: auto;
@@ -1121,20 +1119,16 @@ a {
 }
 
 @media (max-width: 700px) {
-  /* Ира */
   .restaurants__button {
     padding: 20px 24px;
   }
 
-  /* Катя */
   .restaurants__content {
     padding: 50px 10px 0 0;
   }
 }
 
 @media (max-width: 576px) {
-  /* Ира */
-
   body {
     background-image: url(../images/background_mobile.png);
     background-repeat: no-repeat;
@@ -1186,12 +1180,10 @@ a {
     padding: 17px 28px;
   }
 
-  /* Света */
   .menu__filters {
     column-gap: 30px;
   }
 
-  /* Катя */
   .support {
     max-width: none;
     width: auto;
@@ -1263,7 +1255,6 @@ a {
 }
 
 @media (max-width: 480px) {
-  /* Ира */
   .video__section {
     padding-top: 45px;
     padding-bottom: 90px;
@@ -1276,8 +1267,6 @@ a {
   .video__article {
     gap: 30px;
   }
-
-  /* Света */
 
   .menu__items {
     margin-bottom: 30px;
@@ -1306,8 +1295,6 @@ a {
   .reviews__title {
     padding-bottom: 30px;
   }
-
-  /* Катя */
 
   .footer__container {
     width: auto;
