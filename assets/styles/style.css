@@ -1311,13 +1311,30 @@ a {
   }
 
   /* Катя */
+  .support {
+    width: auto;
+    height: auto;
+    max-width: 0;
+    max-height: none;
+  }
+
+  .support__title {
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
   .footer {
     max-width: none;
     max-height: none;
     width: auto;
     height: auto;
   }
+
   .footer__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40% 50%;
     margin: 0;
   }
 
@@ -1386,9 +1403,15 @@ a {
   }
 
   /* Катя */
+  .support {
+    max-width: none;
+    width: auto;
+    height: auto;
+  }
   .restaurants {
     max-width: none;
     max-height: none;
+    width: auto;
   }
 
   .restaurants__container {
@@ -1402,12 +1425,56 @@ a {
     padding: 50px 0 0 0;
   }
 
+  .support__form {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .support__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+
+  .support__input {
+    margin-inline: 20px;
+  }
+
+  .restaurants__container {
+    flex-direction: column;
+  }
+
+  .restaurants__content {
+    align-items: center;
+  }
+
+  .restaurants__title {
+    padding-bottom: 16px;
+  }
+
+  .restaurants__description {
+    margin: 0;
+    padding: 0 70px 50px 70px;
+  }
+
+  .restaurants__map {
+    align-self: center;
+    padding: 60px 0 90px 0;
+  }
+
+
   .footer__content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 40% 50%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     margin: 0;
   }
+/* 
+  .footer__title {
+    white-space: wrap;
+  } */
 }
 
 @media (max-width: 480px) {
@@ -1457,37 +1524,10 @@ a {
   }
 
   /* Катя */
-  .support__form {
-    flex-direction: column;
-    gap: 15px;
-  }
 
-  .support__container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .restaurants__container {
-    flex-direction: column;
-  }
-
-  .restaurants__content {
-    align-items: center;
-  }
-
-  .restaurants__title {
-    padding-bottom: 16px;
-  }
-
-  .restaurants__description {
-    margin: 0;
-    padding: 0 70px 50px 70px;
-  }
-
-  .restaurants__map {
-    align-self: center;
-    padding: 60px 0 90px 0;
+  .footer__container {
+    width: auto;
+    height: auto;
   }
 
   .footer__content {
