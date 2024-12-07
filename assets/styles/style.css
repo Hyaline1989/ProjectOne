@@ -1427,7 +1427,9 @@ a {
 
   .support__form {
     flex-direction: column;
+    text-align: center;
     gap: 15px;
+    box-sizing: border-box;
   }
 
   .support__container {
@@ -1439,7 +1441,10 @@ a {
   }
 
   .support__input {
-    margin-inline: 20px;
+    padding: 0;
+    text-indent: 10%;
+    align-items: center;
+    margin: 0 auto;
   }
 
   .restaurants__container {
