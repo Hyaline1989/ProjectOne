@@ -1007,36 +1007,37 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
   max-height: 368px;
   height: 20rem;
   width: 100%;
   margin: 80px 0;
+  background-color: #ffffff;
 }
 
 .support__title {
+  text-align: center;
+  width: 680px;
+  height: 90px;
+  margin: 0 0 50px 0;
   font-weight: 700;
   font-size: clamp(30px, 4.86vw, 70px);
   line-height: 129%;
-  text-align: center;
   color: black;
-  margin: 0 0 50px 0;
-  width: 680px;
-  height: 90px;
 }
+
 .support__form {
   display: flex;
 }
 
 .support__input {
+  width: clamp(280px, 36.8vw, 530px);
+  height: clamp(56px, 4.72vw, 68px);
+  padding-left: 5%;
   font-weight: 600;
   line-height: 156%;
   color: #000;
   border: 1px solid #000;
   border-radius: 40px;
-  width: clamp(280px, 36.8vw, 530px);
-  height: clamp(56px, 4.72vw, 68px);
-  padding-left: 5%;
 }
 
 .restaurants {
@@ -1068,18 +1069,18 @@ a {
 }
 
 .restaurants__description {
+  margin: 5% 0 17% 0;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.4px;
-  margin: 5% 0 17% 0;
 }
 
 .restaurants__map-image {
   display: block;
+  object-fit: cover;
   width: clamp(280px, 33.54vw, 483px);
   height: 470px;
   border-radius: 10px;
-  object-fit: cover;
 }
 
 .footer {
@@ -1101,19 +1102,19 @@ a {
 }
 
 .footer__title {
+  margin: 80px 10px 30px 0;
+  white-space: nowrap;
   font-weight: 600;
   font-size: clamp(20px, 1.67vw, 24px);
   line-height: 1.42;
   letter-spacing: 0.4px;
-  white-space: nowrap;
-  margin: 80px 10px 30px 0;
 }
 
 .footer__item {
-  font-weight: 400;
-  line-height: 100%;
   margin: 0 0 30px 0;
   white-space: nowrap;
+  font-weight: 400;
+  line-height: 100%;
   letter-spacing: 0.4px;
   transition: color 0.3s ease;
   text-decoration: none;
@@ -1133,14 +1134,14 @@ a {
 .footer__bottom {
   display: flex;
   justify-content: space-between;
+  max-height: 516px;
   border-top: 1px solid #4f4f4f;
   white-space: nowrap;
-  max-height: 516px;
 }
 
 .footer__social-icon {
-  transition: transform 0.3s ease;
   padding: 20px 20px 30px 0;
+  transition: transform 0.3s ease;
 }
 
 .footer__social-icon:hover {
@@ -1149,10 +1150,10 @@ a {
 }
 
 .footer__text {
+  padding: 20px 0 30px 0;
   font-weight: 400;
   line-height: 167%;
   letter-spacing: 0.4px;
-  padding: 20px 0 30px 0;
 }
 
 /* Здесь начало всех медиазапросов */
@@ -1418,10 +1419,11 @@ a {
   .restaurants__container {
     max-width: none;
     max-height: none;
+    height: auto;
     margin: 0;
     padding: 10px 0;
-    height: auto;
   }
+
   .restaurants__content {
     padding: 50px 0 0 0;
   }
@@ -1429,9 +1431,9 @@ a {
   .support__form {
     flex-direction: column;
     text-align: center;
+    align-items: center;
     gap: 15px;
     box-sizing: border-box;
-    align-items: center;
   }
 
   .support__container {
@@ -1445,7 +1447,6 @@ a {
   .support__input {
     padding: 0;
     text-indent: 10%;
-    /* margin: 0 auto; */
   }
 
   .restaurants__container {
@@ -1477,10 +1478,7 @@ a {
     grid-template-rows: auto;
     margin: 0;
   }
-/* 
-  .footer__title {
-    white-space: wrap;
-  } */
+
 }
 
 @media (max-width: 480px) {
