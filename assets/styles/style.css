@@ -1351,6 +1351,11 @@ a {
   .restaurants__button {
     padding: 24px 20px;
   }
+
+  /* Катя */
+  .restaurants__content {
+    padding: 50px 10px 0 0;
+  }
 }
 
 @media (max-width: 576px) {
