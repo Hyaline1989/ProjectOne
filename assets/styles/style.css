@@ -214,6 +214,7 @@ a {
   z-index: 1;
   margin-inline: 4px;
   padding-inline: 1px;
+  outline: none;
 }
 
 .header__burger-btn > span,
