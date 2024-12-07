@@ -1349,7 +1349,7 @@ a {
 @media (max-width: 576px) {
   /* Ира */
 
-/* body {
+  /* body {
   /* background-image: url(../images/background.png); 
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.png);
 
@@ -1362,7 +1362,7 @@ a {
     background-color: transparent;
   }
 
-  .header__burger-btn  {
+  .header__burger-btn {
     padding-top: 80px;
   }
 
@@ -1388,16 +1388,20 @@ a {
     background-image: none;
   }
 
-
-
   .support__button {
     padding: 16px 95px 16px 95px;
+    margin: 0;
   }
 
   .restaurants__button {
+    padding: 17px 28px 17px 28px;
+    width: 100%;
+  }
+
+  /*.restaurants__button {
     padding: 17px 38px 17px 38px;
     width: 280px;
-  }
+  } */
 
   /* Света */
   .menu__filters {
@@ -1410,7 +1414,7 @@ a {
     width: auto;
     height: auto;
   }
-  
+
   .support__container {
     display: flex;
     justify-content: center;
@@ -1472,7 +1476,6 @@ a {
     grid-template-rows: auto;
     margin: 0;
   }
-
 }
 
 @media (max-width: 480px) {
@@ -1544,6 +1547,7 @@ a {
 
 @media (max-width: 320px) {
   /* Ира */
+
   /* Света */
   /* Катя */
 }
