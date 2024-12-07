@@ -62,7 +62,7 @@ a {
 
 .button {
   gap: 10px;
-  padding: 20px 34px 20px 34px;
+  padding: 24px 50px;
   border: none;
   border-radius: 40px;
   font-weight: 700;
@@ -219,6 +219,7 @@ a {
   height: 70px;
   font-size: 18px;
   white-space: nowrap;
+  padding-inline: 34px;
 }
 
 .header__button-icon:active {
