@@ -406,7 +406,7 @@ a {
   /* margin: 0 auto; */
   /* padding-inline: 15px; */
   /* height: clamp(784px, 80vh, 543px); */
-  height: clamp(543px, 85.96vh, 784px);
+  height: clamp(371px, 85.96vh, 784px);
   background-position: center;
   background-position-y: -34px;
   background-repeat: no-repeat;
@@ -1514,7 +1514,7 @@ body {
 @media (max-width: 480px) {
   /* Ира */
   .video__section {
-    padding-top: 47px;
+    /* padding-top: 47px; */
     padding-bottom: 90px;
   }
 
