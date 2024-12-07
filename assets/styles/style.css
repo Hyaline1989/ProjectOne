@@ -1557,8 +1557,11 @@ a {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   /* Ира */
   /* Света */
   /* Катя */
+  .restaurants__description {
+    padding: 0 0px 50px 0px;
+  }
 }
