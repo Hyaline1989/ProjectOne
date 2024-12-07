@@ -1347,6 +1347,22 @@ a {
 @media (max-width: 576px) {
   /* Ира */
 
+body {
+
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: contain contain;
+  background-position: center top;
+
+}
+
+
+
+
+
+
+
+  /* 
   .header, .welcome {
     position: relative;
     background: url('../images/background.png') no-repeat;
@@ -1374,7 +1390,7 @@ a {
 
   .header, .welcome {
     z-index: 1;
-  }
+  } */
 
   .welcome__button {
     margin: 0 auto;
@@ -1406,9 +1422,9 @@ a {
     background-color: transparent;
   }
 
-  /* .welcome {
+  .welcome {
     background-image: none;
-  } */
+  }
 
   .support__button {
     padding: 16px 95px;
