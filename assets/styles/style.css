@@ -86,21 +86,21 @@ a {
   justify-content: center;
 }
 
-.menu__button {
+/*.menu__button {
   max-width: 168px;
-}
+} */
 
-.franchise__button {
+/*.franchise__button {
   max-width: 294px;
-}
+} */
 
 .restaurants__button {
-  max-width: 337px;
+  /*max-width: 337px; */
   margin-left: 0;
 }
 
 .support__button {
-  max-width: 198px;
+  /*max-width: 198px; */
   background: #000000;
   color: #ffffff;
   margin: 0px 30px;
@@ -214,23 +214,13 @@ a {
   height: 34px;
 }
 
-.button_member {
-  width: 232px;
-  height: 70px;
-  font-size: 18px;
-  white-space: nowrap;
-  padding-inline: 34px;
-}
-
-.header__button-icon:active {
-  transform: scale(0.95);
-}
 .header__button-member {
-  width: 232px;
-  height: 70px;
+  /*width: 232px;
+  height: 70px; */
   font-size: 18px;
   white-space: nowrap;
   margin: 0;
+  padding-inline: 34px;
 }
 
 .header__button-icon:active {
