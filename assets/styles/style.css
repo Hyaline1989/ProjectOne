@@ -271,9 +271,9 @@ a {
 
 .welcome {
   margin: 0 auto;
-  background-image: url(../images/background.png);
   max-width: 1440px;
   height: clamp(573px, 85.96vh, 784px);
+  background-image: url(../images/background.png);
   background-position: center;
   background-position-y: -34px;
   background-repeat: no-repeat;
