@@ -96,6 +96,7 @@ a {
 } */
 
 .restaurants__button {
+  max-width: 337px;
   margin-left: 0;
   text-align: center;
 }
@@ -1395,6 +1396,11 @@ a {
   .restaurants__button {
     padding: 17px 28px 17px 28px;
   }
+
+  /*.restaurants__button {
+    padding: 17px 38px 17px 38px;
+    width: 280px;
+  } */
 
   /* Света */
   .menu__filters {
