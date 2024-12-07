@@ -1346,6 +1346,13 @@ a {
   }
 }
 
+@media (max-width: 700px) {
+  /* Ира */
+  .restaurants__button {
+    padding: 24px 20px;
+  }
+}
+
 @media (max-width: 576px) {
   /* Ира */
 
