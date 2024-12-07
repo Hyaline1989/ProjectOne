@@ -81,24 +81,6 @@ a {
   outline: none;
 }
 
-.menu__button-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.restaurants__button {
-  max-width: 337px;
-  margin-left: 0;
-  text-align: center;
-}
-
-.support__button {
-  background: #000000;
-  color: #ffffff;
-  margin: 0px 30px;
-}
-
 /* Ира */
 
 .header {
@@ -180,10 +162,10 @@ a {
 }
 
 .header__button-member {
-  font-size: 18px;
-  white-space: nowrap;
   margin: 0;
   padding-inline: 34px;
+  font-size: 18px;
+  white-space: nowrap;
 }
 
 .header__button-icon:active {
@@ -600,6 +582,12 @@ a {
   border: 1px solid #f0a967;
 }
 
+.menu__button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .menu__button {
   margin-top: 80px;
 }
@@ -820,6 +808,12 @@ a {
   border-radius: 40px;
 }
 
+.support__button {
+  margin: 0px 30px;
+  background: #000000;
+  color: #ffffff;
+}
+
 .restaurants {
   max-height: 770px;
   margin: 0 auto;
@@ -853,6 +847,12 @@ a {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.4px;
+}
+
+.restaurants__button {
+  max-width: 337px;
+  margin-left: 0;
+  text-align: center;
 }
 
 .restaurants__map-image {
@@ -936,12 +936,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-
-
-
 /* Медиазапросы */
-
-
 
 @media (max-width: 1210px) {
   .video__article {
