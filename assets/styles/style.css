@@ -1314,7 +1314,7 @@ a {
   .support {
     width: auto;
     height: auto;
-    max-width: 0;
+    max-width: none;
     max-height: none;
   }
 
