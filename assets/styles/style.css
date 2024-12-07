@@ -1256,15 +1256,15 @@ a {
   }
 
   .button_order {
-    padding: 16px 84px 16px 84px;
+    padding: 16px 84px;
   }
 
   .menu__button {
-    padding: 16px 110px 16px 110px;
+    padding: 16px 110px;
   }
 
   .franchise__button {
-    padding: 20px 47px 20px 47px;
+    padding: 20px 47px;
   }
 
   /* Показ меню при активном чекбоксе */
@@ -1389,16 +1389,16 @@ a {
   }
 
   .support__button {
-    padding: 16px 95px 16px 95px;
+    padding: 16px 95px;
     margin: 0;
   }
 
   .restaurants__button {
-    padding: 17px 28px 17px 28px;
+    padding: 17px 28px;
   }
 
   /*.restaurants__button {
-    padding: 17px 38px 17px 38px;
+    padding: 17px 38px;
     width: 280px;
   } */
 
@@ -1546,7 +1546,6 @@ a {
 
 @media (max-width: 320px) {
   /* Ира */
-
   /* Света */
   /* Катя */
 }
