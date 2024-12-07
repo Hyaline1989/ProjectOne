@@ -1330,9 +1330,14 @@ a {
 @media (max-width: 576px) {
   /* Ира */
 
-  .body {
-    background-image: url(../images/map.jpg);
-  }
+/* body {
+  /* background-image: url(../images/background.png); 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.png);
+
+
+  background-repeat: no-repeat;
+  background-position: top;
+} */
 
   .header {
     background-color: transparent;
