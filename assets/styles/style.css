@@ -1514,7 +1514,7 @@ body {
 @media (max-width: 480px) {
   /* Ира */
   .video__section {
-    /* padding-top: 47px; */
+    padding-top: 45px;
     padding-bottom: 90px;
   }
 
