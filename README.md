@@ -19,3 +19,12 @@ This project is a layout of a restaurant page based on a layout from Figma. The 
 <br>
 - Design: [Figma Design](https://www.figma.com/design/BVYHby2vfWlkuvM7oPwFi9/Restaurent%C2%A0Landing%C2%A0Page%C2%A0Template-(Community)?node-id=0-1&node-type=canvas&t=5rufy1OjyiLB2Zcy-0)  <br>
 - Check out how the project looks: [GitHub Pages Demo](https://nerpabosikom.github.io/ProjectOne/)
+
+
+---
+
+## Команда проекта / Project team
+
+- Томзова Светлана (https://github.com/NerpaBosikom)
+- Линник Екатерина (https://github.com/Hyaline1989) 
+- Никулина Ирина   (https://github.com/irinavladimirovna1307)
