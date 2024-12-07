@@ -14,11 +14,13 @@ This project is a layout of a restaurant page based on a layout from Figma. The 
 ---
 
 ## Демо / Demo
-- Макет: [Figma Design](https://www.figma.com/design/BVYHby2vfWlkuvM7oPwFi9/Restaurent%C2%A0Landing%C2%A0Page%C2%A0Template-(Community)?node-id=0-1&node-type=canvas&t=5rufy1OjyiLB2Zcy-0)  <br>
-- Посмотрите, как выглядит проект: [GitHub Pages Demo](https://nerpabosikom.github.io/ProjectOne/)  <br>
+- Макет: [Figma Design](https://www.figma.com/design/BVYHby2vfWlkuvM7oPwFi9/Restaurent%C2%A0Landing%C2%A0Page%C2%A0Template-(Community)?node-id=0-1&node-type=canvas&t=5rufy1OjyiLB2Zcy-0)  
+- Посмотрите, как выглядит проект: [GitHub Pages Demo](https://nerpabosikom.github.io/ProjectOne/)  
+
 <br>
-- Design: [Figma Design](https://www.figma.com/design/BVYHby2vfWlkuvM7oPwFi9/Restaurent%C2%A0Landing%C2%A0Page%C2%A0Template-(Community)?node-id=0-1&node-type=canvas&t=5rufy1OjyiLB2Zcy-0)  <br>
-- Check out how the project looks: [GitHub Pages Demo](https://nerpabosikom.github.io/ProjectOne/)
+
+- Design: [Figma Design](https://www.figma.com/design/BVYHby2vfWlkuvM7oPwFi9/Restaurent%C2%A0Landing%C2%A0Page%C2%A0Template-(Community)?node-id=0-1&node-type=canvas&t=5rufy1OjyiLB2Zcy-0)  
+- Check out how the project looks: [GitHub Pages Demo](https://nerpabosikom.github.io/ProjectOne/)  
 
 
 ---
