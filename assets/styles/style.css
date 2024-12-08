@@ -73,7 +73,6 @@ a {
   background: #ffffff;
   white-space: nowrap;
   color: #000000;
-  -webkit-tap-highlight-color: transparent;
   transition: transform 0.2s ease;
 }
 
@@ -468,7 +467,6 @@ a {
   text-align: center;
   border-bottom: 4px solid transparent;
   transform: translateZ(0);
-  -webkit-tap-highlight-color: transparent;
 }
 
 .menu__filter:hover {
