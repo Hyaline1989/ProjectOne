@@ -206,7 +206,7 @@ a {
   display: flex;
   align-items: center;
   position: fixed;
-  top: 20px;
+  top: 15px;
   left: 20px;
   width: 26px;
   height: 26px;
@@ -238,9 +238,11 @@ a {
 }
 
 .header__burger-items {
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: fixed;
   visibility: hidden;
+  align-items: center;
   top: 0;
   left: -100%;
   width: 100%;
@@ -955,8 +957,16 @@ a {
 }
 
 @media (max-width: 992px) {
+  .header__nav {
+    padding-left: 50px;
+  }
+
   .header__burger-menu {
     display: flex;
+  }
+
+  .header__burger-btn {
+    top: 50px;
   }
 
   .header__menu {
@@ -1140,7 +1150,7 @@ a {
   }
 
   .header__burger-btn {
-    padding-top: 80px;
+    padding-top: 45px;
   }
 
   .header__button-icon--none {
