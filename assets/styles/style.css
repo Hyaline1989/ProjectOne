@@ -504,6 +504,15 @@ a {
   height: clamp(388px, 30.69vw, 442px);
   box-shadow: 0 0 250px 0 rgba(0, 0, 0, 0.05);
   background: #191919;
+  overflow: hidden;
+}
+
+.menu__card img {
+  transition: transform 0.3s ease;
+}
+
+.menu__card:hover img {
+  transform: scale(1.1);
 }
 
 .menu__card-image {
@@ -581,20 +590,6 @@ a {
 
 .menu__button {
   margin-top: 80px;
-}
-
-/* Стили для карточек */
-
-.menu__card {
-  overflow: hidden;
-}
-
-.menu__card img {
-  transition: transform 0.3s ease;
-}
-
-.menu__card:hover img {
-  transform: scale(1.1);
 }
 
 .achievements {
@@ -693,6 +688,12 @@ a {
   height: clamp(337px, 25.76vw, 371px);
   box-shadow: 0 0 250px 0 rgba(0, 0, 0, 0.05);
   background: #191919;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reviews__list:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .reviews__item {
@@ -749,16 +750,6 @@ a {
   opacity: 0.7;
 }
 
-/* стили для карточек */
-
-.reviews__list {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.reviews__list:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
 
 /* Стили Кати для нижних секций. */
 .support {
