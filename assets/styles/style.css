@@ -239,10 +239,8 @@ a {
 
 .header__burger-items {
   display: flex;
-  flex-direction: column;
   position: fixed;
   visibility: hidden;
-  align-items: center;
   top: 0;
   left: -100%;
   width: 100%;
