@@ -563,19 +563,9 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
 }
-/* 
-.menu__card-button:hover::after {
-  width: 40px;
-  aspect-ratio: 1;
-  border-radius: 50px;
-  background-image: none;
-  background-color: #ffffff;
-  transition-duration: 0.2s;
-} */
 
 .menu__card-button:active {
   transform: scale(0.95);
-  /* background-color: #ffffff; */
 }
 
 .menu__card-button.active {
@@ -630,16 +620,16 @@ a {
 }
 
 .achievements__item {
-  text-align: center;
   width: 270px;
+  text-align: center;
 }
 
 .achievements__number {
+  padding-bottom: 12px;
   font-weight: 700;
   font-size: clamp(46px, 3.89vw, 56px);
   line-height: 1.18;
   text-align: center;
-  padding-bottom: 12px;
 }
 
 .achievements__text {
@@ -657,12 +647,12 @@ a {
 }
 
 .franchise__text {
+  padding-bottom: 60px;
   font-weight: 400;
   font-size: clamp(14px, 1.39vw, 20px);
   line-height: 1.5;
   letter-spacing: 0.4px;
   text-align: center;
-  padding-bottom: 60px;
 }
 
 .franchise__button-wrapper {
@@ -680,11 +670,11 @@ a {
 }
 
 .reviews__title {
+  padding-bottom: 70px;
   font-weight: 600;
   font-size: clamp(28px, 3.47vw, 50px);
   line-height: 1.4;
   text-align: center;
-  padding-bottom: 70px;
 }
 
 .reviews__grid {
