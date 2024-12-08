@@ -239,6 +239,7 @@ a {
 
 .header__burger-items {
   display: flex;
+  flex-direction: column;
   position: fixed;
   visibility: hidden;
   top: 0;
