@@ -47,6 +47,7 @@ body {
   color: #ffffff;
   font-size: clamp(14px, 1.25vw, 18px);
   background-color: #0d0d0d;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {
@@ -264,7 +265,6 @@ a {
   color: #ffffff;
   text-decoration: none;
   transition-duration: 0.25s;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .header__burger-item:hover {
@@ -398,7 +398,6 @@ a {
 
 .video__article-content-bold:hover {
   color: #f0a967;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .video__box {
