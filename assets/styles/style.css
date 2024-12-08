@@ -809,6 +809,11 @@ a {
   border-radius: 40px;
 }
 
+.support__input:focus {
+  border: 2px solid #f0a967;
+  outline: none;
+}
+
 .support__button {
   margin: 0px 30px;
   background: #000000;
