@@ -144,7 +144,6 @@ a {
   display: flex;
   align-items: center;
   gap: 30px;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .header__button-icon {
@@ -215,7 +214,6 @@ a {
   z-index: 1;
   margin-inline: 4px;
   padding-inline: 1px;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .header__burger-btn > span,
@@ -240,9 +238,11 @@ a {
 }
 
 .header__burger-items {
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: fixed;
   visibility: hidden;
+  align-items: center;
   top: 0;
   left: -100%;
   width: 100%;
@@ -567,7 +567,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+/* 
 .menu__card-button:hover::after {
   width: 40px;
   aspect-ratio: 1;
@@ -575,11 +575,11 @@ a {
   background-image: none;
   background-color: #ffffff;
   transition-duration: 0.2s;
-}
+} */
 
 .menu__card-button:active {
   transform: scale(0.95);
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 .menu__card-button.active {
